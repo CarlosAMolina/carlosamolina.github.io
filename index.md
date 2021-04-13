@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## Tabla de contenidos
 
-[Git](git.md)
+[Git](wiki/git.md)
 
 ### Markdown
 
