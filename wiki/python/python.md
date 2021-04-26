@@ -26,7 +26,7 @@ language.decode('utf-8')
 <a name="cpython"></a>
 # CPython
 
-[cpython](cpython.md)
+Ver [cpython](cpython.md).
 
 <a name="decorator"></a>
 # Decorator
@@ -59,7 +59,7 @@ source env/bin/activate
 ```
 ## Entornos virtuales y penv
 
-[pyenv](pyenv.md)
+Ver [pyenv](pyenv.md).
 
 <a name="parentesis"></a>
 # Paréntesis
