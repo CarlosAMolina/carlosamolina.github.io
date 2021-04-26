@@ -26,7 +26,7 @@ language.decode('utf-8')
 <a name="cpython"></a>
 # CPython
 
-https://moli.com.es/cpython/
+[cpython](cpython.md)
 
 <a name="decorator"></a>
 # Decorator
