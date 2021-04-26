@@ -59,7 +59,7 @@ source env/bin/activate
 ```
 ## Entornos virtuales y penv
 
-Ver https://moli.com.es/pyenv/
+[pyenv](pyenv.md)
 
 <a name="parentesis"></a>
 # Paréntesis
@@ -84,10 +84,9 @@ pip install -r requirements.txt
 <a name="pipenv"></a>
 # pipenv: pip y entornos virtuales
 
-Para trabajar con pip y entornos virtuales, explicación en https://moli.com.es/pipenv/
+Para trabajar con pip y entornos virtuales, explicación en [pipenv](pipenv.md).
 
 <a name="pyenv"></a>
 # pyenv: versión de python
 
-Para instalar la versión deseada de python se utiliza pyenv. Explicado en: 
-https://moli.com.es/pyenv/
+Para instalar la versión deseada de python se utiliza pyenv. Explicado en [pyenv](pyenv.md).
