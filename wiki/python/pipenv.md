@@ -200,7 +200,7 @@ exit
 pipenv shell
 ```
 
-Resource: [stackoverflow](https://stackoverflow.com/questions/49944871/deactivate-a-pipenv-environment).
+Resource: <https://stackoverflow.com/questions/49944871/deactivate-a-pipenv-environment>.
 
 <a name="other_commands"></a>
 ## Other commands
@@ -216,20 +216,20 @@ pipenv --venv
 
 - Activate and deactivate a virtualtual environment
 
-  https://github.com/pypa/pipenv/issues/84
+  <https://github.com/pypa/pipenv/issues/84>
 
 - Custom virtualenv path
 
-  https://github.com/pypa/pipenv/issues/1049
+  <https://github.com/pypa/pipenv/issues/1049>
 
 - Documentation
 
-  https://pipenv-es.readthedocs.io/es/latest/
+  <https://pipenv-es.readthedocs.io/es/latest/>
 
 - Pipenv install
 
-  https://pipenv.kennethreitz.org/en/latest/basics/#pipenv-install
+  <https://pipenv.kennethreitz.org/en/latest/basics/#pipenv-install>
 
 - Tutorial
 
-  https://realpython.com/pipenv-guide/#reader-comments
+  <https://realpython.com/pipenv-guide/#reader-comments>
