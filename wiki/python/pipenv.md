@@ -15,6 +15,7 @@
       - [Lock environment](#lock_environment)
   - [Work with the Pipfile.lock file](#work_with_the_pipfile_lock_file)
 - [Exit virtual environment](#exit_virtual_environment)
+  - [Error already activated](#error_already_activated)
 - [Other commands](#other_commands)
 - [Resources](#resources)
 
@@ -181,6 +182,25 @@ If you are in a docker container, use the following option to avoid close the co
 ```bash
 CTRL-d
 ```
+
+<a name="error_already_activated"></a>
+### Error already activated
+
+If you exit the environment using `deactivate` instead `exit`, you will have this error when you activate it again with `pipenv shell`:
+
+```bash
+Shell for UNKNOWN_VIRTUAL_ENVIRONMENT already activated.
+No action taken to avoid nested environments.
+```
+
+The solution is simply to run the `exit` command and you will be able to activate the environment again:
+
+```bash
+exit
+pipenv shell
+```
+
+Resource: [stackoverflow](https://stackoverflow.com/questions/49944871/deactivate-a-pipenv-environment).
 
 <a name="other_commands"></a>
 ## Other commands
