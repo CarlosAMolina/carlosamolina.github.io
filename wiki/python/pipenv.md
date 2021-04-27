@@ -193,7 +193,7 @@ Shell for UNKNOWN_VIRTUAL_ENVIRONMENT already activated.
 No action taken to avoid nested environments.
 ```
 
-The solution is simply to run the `exit` command and you will be able to activate the environment again:
+The solution is simply to run the `exit` command (even though you are currently outside the vitual environment) and you will be able to activate the environment again:
 
 ```bash
 exit
