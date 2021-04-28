@@ -13,7 +13,6 @@
       - [Install packages](#install_packages)
       - [Uninstall packages](#uninstall_packages)
       - [Lock environment](#lock_environment)
-  - [Work with the Pipfile.lock file](#work_with_the_pipfile_lock_file)
 - [Exit virtual environment](#exit_virtual_environment)
   - [Error already activated](#error_already_activated)
 - [Other commands](#other_commands)
@@ -135,6 +134,24 @@ Install from requirements files:
 pipenv install -r requirements.txt
 ```
 
+Install from Pipfile (omitting the dev section):
+
+```bash
+pipenv install
+```
+
+Install from Pipfile including the dev section:
+
+```bash
+pipenv install --dev
+```
+
+Install from Pipfile.lock. When you are in a virtual environment, the following command installs what's in the Pipfile.lock, ignoring the Pipfile.
+
+```bash
+pipenv install --ignore-pipfile
+```
+
 <a name="uninstall_packages"></a>
 #### Uninstall packages
 
@@ -161,14 +178,6 @@ pipenv lock
 
 The Pipfile.lock file must not be modified, to do that, use the pipenv shell.
 
-<a name="work_with_the_pipfile_lock_file"></a>
-### Work with the Pipfile.lock file
-
-When you are in an environment, the following command installs what's in the Pipfile.lock, ignoring the Pipfile.
-
-```bash
-pipenv install --ignore-pipfile
-```
 
 <a name="exit_virtual_environment"></a>
 ## Exit virtual environment
