@@ -134,23 +134,26 @@ Install from requirements files:
 pipenv install -r requirements.txt
 ```
 
-Install from Pipfile (omitting the dev section):
+##### Install from pipenv
+
+Omitting the dev section: 
 
 ```bash
 pipenv install
 ```
 
-Install from Pipfile including the dev section:
+Including the dev section:
 
 ```bash
 pipenv install --dev
 ```
 
-Install from Pipfile.lock. When you are in a virtual environment, the following command installs what's in the Pipfile.lock, ignoring the Pipfile.
+If the Pipfile.lock exists, it will be used for the installation instead Pipfile. 
 
-```bash
-pipenv install --ignore-pipfile
-```
+You can omit the Pipfile or Pipfile.lock when installing packages:
+
+- To omit the Pipfile.lock file: add `--skip-lock` at the end of the previous commands (`pipenv lock` command won't be exectued).
+- To omit the Pipfile file: add `--ignore-pipfile` at the end of the previous commands.
 
 <a name="uninstall_packages"></a>
 #### Uninstall packages
