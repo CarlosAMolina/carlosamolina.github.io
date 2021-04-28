@@ -164,7 +164,7 @@ pipenv uninstall numpy
 All packages:
 
 ```bash
-pipenv uninstall -all
+pipenv uninstall --all
 ```
 
 <a name="lock_environment"></a>
