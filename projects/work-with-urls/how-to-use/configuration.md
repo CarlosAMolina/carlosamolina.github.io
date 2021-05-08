@@ -4,7 +4,7 @@ Before work with the addon, some steps are required.
 
 ### Disable Firefox's pop-up blocker
 
-In order to avoid errors when openning URLs in new tabs, navigate to 'about:preferences#privacy' and, under the 'Permissions' section uncheck te box next to 'Block pop-up windows'.
+In order to avoid errors when opening URLs in new tabs, navigate to 'about:preferences#privacy' and, under the 'Permissions' section uncheck te box next to 'Block pop-up windows'.
 
 Source: <https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting#w_pop-up-blocker-settings>
 
