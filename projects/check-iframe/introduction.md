@@ -7,7 +7,7 @@ Thank you for using this add-on!
 
 This Firefox add-on that indicates if the current web page uses iframe or frame tags by changing the colour of the add-on icon.
 
-Click on the add-on icon to work with a pop-up window that gives you details and allows you to configure the addo.
+Click on the add-on icon to work with a pop-up window that gives you details and allows you to configure the add-on.
 
 ### Add-on notifications
 
