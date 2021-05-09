@@ -16,6 +16,7 @@ The addon allows you to apply different actions to URLs:
 ## Table of contents
 
 - [Introduction](#introduction)
+- [Motivation](motivation/motivation.md)
 - How to use the addon
   - [Configuration](how-to-use/configuration.md)
   - [Open URLs](how-to-use/open-urls.md)
