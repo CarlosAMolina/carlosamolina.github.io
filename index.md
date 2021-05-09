@@ -6,9 +6,9 @@
 
 Proyectos
 
-- [CheckIframe](projects/check-iframe/introduction.md)
+- [Check Iframe](projects/check-iframe/introduction.md)
 - [Requests Custom](projects/requests-custom/introduction.md)
-- [WorkWithURLs](projects/work-with-urls/introduction.md)
+- [Work With URLs](projects/work-with-urls/introduction.md)
 
 Wiki
 
