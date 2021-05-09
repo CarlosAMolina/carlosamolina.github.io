@@ -1,6 +1,6 @@
 ## Configuration
 
-Before work with the addon, some steps are required.
+Before work with the add-on, some steps are required.
 
 ### Disable Firefox's pop-up blocker
 
@@ -10,7 +10,7 @@ Source: <https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-tr
 
 ### Rules to modify URLs
 
-The addon uses regular expressions to deobfuscate and obfuscate the provided URLs.
+The add-on uses regular expressions to deobfuscate and obfuscate the provided URLs.
 
 This means that some characters must be scaped with backslash, for example `.` must be specified as `\\.`
 
@@ -42,7 +42,7 @@ These rules must be configured by the user:
 
 4. Edit saved rules
 
-    You can edit then by clicking over each saved rule and modify the values.
+    You can edit them by clicking over each saved rule and modify the values.
 
 #### Deobfuscation rules
 
@@ -92,10 +92,10 @@ Example. The URL https://github.com/CarlosAMolina will be modified to hXXps[:]//
 
 ### Open URLs delay
 
-You can configure a time to wait between each URL oppened by the addon.
+You can configure a time to wait between each URL oppened by the add-on.
 
 Steps:
 
-1. Click the `Configuration` button at the addon's popup.
+1. Click the `Configuration` button at the add-on's popup.
 2. Click the `Lazy loading configuration` button and specify the desired milliseconds.
 3. Save this value clicking on the `Update` button near the box where you set the desired milliseconds.

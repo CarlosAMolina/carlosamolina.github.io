@@ -1,11 +1,11 @@
-# Work with URLs
+# Work With URLs
 
 <a name=introduction></a>
 ## Introduction
 
-Thank you for using this addon!
+Thank you for using this add-on!
 
-The addon allows you to apply different actions to URLs:
+This Firefox add-on allows you to apply different actions to URLs:
 
 - Open each specified URL in a new tab.
 - Open each part of the URLs' paths in a new tab.
@@ -17,7 +17,7 @@ The addon allows you to apply different actions to URLs:
 
 - [Introduction](#introduction)
 - [Motivation](motivation/motivation.md)
-- How to use the addon
+- How to use the add-on
   - [Configuration](how-to-use/configuration.md)
   - [Open URLs](how-to-use/open-urls.md)
   - [Open URLs' paths](how-to-use/open-paths.md)

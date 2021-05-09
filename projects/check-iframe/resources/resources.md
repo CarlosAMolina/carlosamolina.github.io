@@ -4,11 +4,11 @@ In this section you can check the sources related to this project.
 
 ### Download link
 
-<https://addons.mozilla.org/addon/workwithurls/>
+<https://addons.mozilla.org/es/firefox/addon/check-iframe/>
 
 ### Project's code
 
-<https://github.com/CarlosAMolina/workWithUrls>
+<https://github.com/CarlosAMolina/checkIframe>
 
 ### Project's references
 
