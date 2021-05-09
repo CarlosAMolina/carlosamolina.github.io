@@ -6,6 +6,6 @@ Another typical task was to obfuscate malicious URLs to share them with our cowo
 
 Thanks to the users’ feedback, more options were added, like configure a delay between each open tab.
 
-I think this is an useful addon for all people who analyze URLs and I hope you enjoy it!
+I think this is an useful addon for all the people who analyze URLs and I hope you enjoy it!
 
 Carlos A. Molina
