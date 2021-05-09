@@ -27,6 +27,7 @@ The meaning of the icon's colours is:
 ## Table of contents
 
 - [Introduction](#introduction)
+- [Permissions](permissions/permissions.md)
 - How to use the add-on
   - Configuration
     - [Blacklisted URLs](how-to-use/configuration/blacklisted-urls.md)
@@ -37,5 +38,4 @@ The meaning of the icon's colours is:
   - [Scroll](how-to-use/scroll.md)
   - [Clean border](how-to-use/clean-border.md)
   - [Show tags info](how-to-use/show-tags-info.md)
-- [Permissions](permissions/permissions.md)
 - [Resources](resources/resources.md)

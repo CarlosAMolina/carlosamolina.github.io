@@ -17,6 +17,7 @@ This Firefox add-on allows you to apply different actions to URLs:
 
 - [Introduction](#introduction)
 - [Motivation](motivation/motivation.md)
+- [Permissions](permissions/permissions.md)
 - How to use the add-on
   - [Configuration](how-to-use/configuration.md)
   - [Open URLs](how-to-use/open-urls.md)
