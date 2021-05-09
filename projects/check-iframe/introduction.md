@@ -5,7 +5,7 @@
 
 Thank you for using this add-on!
 
-This Firefox add-on to work with iframe and frame tags:
+This is a Firefox add-on to work with iframe and frame tags:
 
 - Indicate if the current web page uses iframe and frame tags by changing the colour of the add-on icon.
 - Scroll the window to the elements with tags and highlight them with a red border.
