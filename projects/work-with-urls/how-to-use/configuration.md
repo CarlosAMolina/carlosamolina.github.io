@@ -12,7 +12,7 @@ Source: <https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-tr
 
 The add-on uses regular expressions to deobfuscate and obfuscate the provided URLs.
 
-This means that some characters must be scaped with backslash, for example `.` must be specified as `\\.`
+This means that some characters must be scaped with backslash, for example `.` must be specified as `\.`
 
 These rules must be configured by the user:
 
@@ -59,9 +59,9 @@ You must save the following rules (the `Save more than one rule` option is activ
 ```bash
 hXXp
 http
-\\[\\:\\]
+\[\:\]
 :
-\\[\\.\\]
+\[\.\]
 .
 ```
 
@@ -84,7 +84,7 @@ http
 hXXp
 :
 [:]
-\\.
+\.
 [.]
 ```
 
