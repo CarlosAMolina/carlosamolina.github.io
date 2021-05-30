@@ -114,7 +114,7 @@ Con el comando anterior configuramos que, al escribir `python` en la terminal, u
 
 ### pyenv
 
-Es un gestor de versiones de Python, es parecido a pipenv pero para versiones de Python en lugar de paquetes pip.
+Gestor de versiones de Python, es parecido a pipenv pero para versiones de Python en lugar de paquetes pip.
 
 Explicación en [pyenv](pyenv.md).
 
