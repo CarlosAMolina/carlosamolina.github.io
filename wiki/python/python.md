@@ -7,7 +7,7 @@
 - [Paréntesis](#parentesis)
 - [Pip](#pip)
 - [pipenv: pip y entornos virtuales](#pipenv)
-- [pyenv: versión de python](#pyenv)
+- [Versión de python](#version)
 
 <a name=codificacion></a>
 ## Codificación
@@ -86,7 +86,7 @@ pip install -r requirements.txt
 
 Para trabajar con pip y entornos virtuales, explicación en [pipenv](pipenv.md).
 
-<a name="pyenv"></a>
+<a name="version"></a>
 ## Versión de python
 
 Podemos instalar diferentes versiones de Python en nuestro equipo, de manera manual o mediante un gestor de versiones.
