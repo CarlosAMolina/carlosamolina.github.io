@@ -1,4 +1,4 @@
-**Índice**
+## Índice
 
 - [Codificación](#codificacion)
 - [CPython](#cpython)
@@ -7,10 +7,10 @@
 - [Paréntesis](#parentesis)
 - [Pip](#pip)
 - [pipenv: pip y entornos virtuales](#pipenv)
-- [pyenv: versión de python](#pyenv)
+- [Versión de python](#version)
 
 <a name=codificacion></a>
-# Codificación
+## Codificación
 
 ```python
 # -*- coding: utf-8 -*-    
@@ -24,45 +24,45 @@ language.decode('utf-8')
 ```
 
 <a name="cpython"></a>
-# CPython
+## CPython
 
 Ver [cpython](cpython.md).
 
 <a name="decorator"></a>
-# Decorator
+## Decorator
 
 https://realpython.com/primer-on-python-decorators/
 
 <a name="venv"></a>
-# Entorno virtuales
+## Entorno virtuales
 
 https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 
-## Python 2
+### Python 2
 
-### Instalar
+#### Instalar
 
 ```bash
 pip install virtualenv
 ```
 
-### Crear
+#### Crear
 
 ```bash
 python -m virtualenv env
 ```
 
-### Activar
+#### Activar
 
 ```bash
 source env/bin/activate
 ```
-## Entornos virtuales y penv
+### Entornos virtuales y penv
 
 Ver [pyenv](pyenv.md).
 
 <a name="parentesis"></a>
-# Paréntesis
+## Paréntesis
 
 De no utilizar paréntesis, se tiene una referencia a la función, ejm:
 
@@ -75,18 +75,46 @@ Con paréntesis: se llama al resultado de evaluar la función (llamar a la funci
 https://realpython.com/primer-on-python-decorators/
 
 <a name="pip"></a>
-# Pip
+## Pip
 
 ```bash
 pip install -r requirements.txt
 ```
 
 <a name="pipenv"></a>
-# pipenv: pip y entornos virtuales
+## pipenv: pip y entornos virtuales
 
 Para trabajar con pip y entornos virtuales, explicación en [pipenv](pipenv.md).
 
-<a name="pyenv"></a>
-# pyenv: versión de python
+<a name="version"></a>
+## Versión de python
 
-Para instalar la versión deseada de python se utiliza pyenv. Explicado en [pyenv](pyenv.md).
+Podemos instalar diferentes versiones de Python en nuestro equipo, de manera manual o mediante un gestor de versiones.
+
+### De manera manual
+
+Primero, descargamos e instalamos la versión de Python deseada ([referencia](https://exitcode0.net/debian-10-how-to-upgrade-python-3-7-to-python-3-9/)). Ejemplo:
+
+```bash
+wget https://www.python.org/ftp/python/3.9.1/Python-3.9.1.tar.xz
+tar xf Python-3.9.1.tar.xz
+cd Python-3.9.1
+./configure
+make
+make install 
+```
+
+Tras esto, indicamos al sistema que utilice esta versión de Python:
+
+```bash
+update-alternatives --install /usr/bin/python python /usr/local/bin/python3.9 10
+```
+
+Con el comando anterior configuramos que, al escribir `python` en la terminal, utilicemos la versión 3.9. Esto lo conseguimos mediante el uso de `update-alternatives`, más información sobre este comando en el siguiente [link](https://linuxhint.com/update_alternatives_ubuntu/).
+
+### pyenv
+
+Gestor de versiones de Python, es parecido a pipenv pero para versiones de Python en lugar de paquetes pip.
+
+Explicación en [pyenv](pyenv.md).
+
