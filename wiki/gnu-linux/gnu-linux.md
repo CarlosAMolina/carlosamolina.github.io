@@ -4,7 +4,7 @@
 
 - [Reemplazar texto en archivos](#reemplazar-texto-en-archivos)
 
-<a name=reemplazar-texto-en-archivos></a>
+<a name="reemplazar-texto-en-archivos"></a>
 ## Reemplazar texto en archivos
 
 ```bash
