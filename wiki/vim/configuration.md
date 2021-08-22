@@ -34,7 +34,7 @@ Note. If the previous file does not exist, create it in order to avoid edit /etc
 
 ### Configuration example
 
-See [.vimrc](.vimrc).
+See [vimrc](vimrc).
 
 ### References
 
