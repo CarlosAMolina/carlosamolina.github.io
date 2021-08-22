@@ -19,5 +19,5 @@ Wiki
 - [Git](wiki/git.md)
 - [GNU-Linux](wiki/gnu-linux/gnu-linux.md)
 - [Python](wiki/python/python.md)
-- [Vim](wiki/vim.md)
+- [Vim](wiki/vim/vim.md)
 
