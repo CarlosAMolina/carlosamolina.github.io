@@ -8,7 +8,7 @@
 
 2. Move all extracted files and folders to a path  of the Vim's runtimepath.
 
-    Show runtime paths
+    Show runtime paths (in Vim):
     
     ```bash
     :set runtimepath?
