@@ -7,9 +7,11 @@ source $VIMRUNTIME/defaults.vim
 set expandtab           " Indent with spaces 
 set shiftwidth=4        " Indent with 4 spaces 
 set softtabstop=4       " Indent with 4 spaces
+
 " Paste
 "" Prevents Vim from auto-indenting the pasted code.
 "" https://stackoverflow.com/questions/5585129/pasting-code-into-terminal-window-into-vim-on-mac-os-x/7053522#7053522
+"" Not use `set paste` because produces errors.
 if &term =~ "screen"
   let &t_BE = "\e[?2004h"
   let &t_BD = "\e[?2004l"
@@ -19,9 +21,11 @@ endif
 set clipboard=unnamed   " Using the clipboard as the default register.
                         " if vim -version | grep clibpboard == -clipboard and
                         " -xterm_clipboard -> apt-get install vim-gtk
+
 " Screen information.
 set laststatus=2        " Displaying status line always.
 set nu                  " Show line numbers.
 set rnu                 " Line numbers relative to the current line.
+
 " Tmux
 set bg=dark             " Avoid color errors with tmux.
