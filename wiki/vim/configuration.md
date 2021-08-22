@@ -36,9 +36,3 @@ Note. If the previous file does not exist, create it in order to avoid edit /etc
 
 See [.vimrc](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/vim/.vimrc) example.
 
-### References
-
-Set bg=dark
-
-<https://unix.stackexchange.com/questions/348771/why-do-vim-colors-look-different-inside-and-outside-of-tmux>
-
