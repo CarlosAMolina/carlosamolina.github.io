@@ -34,23 +34,7 @@ Note. If the previous file does not exist, create it in order to avoid edit /etc
 
 ### Configuration example
 
-```bash
-" Indentation
-set expandtab           " Indent with spaces https://vim.fandom.com/wiki/Indenting_source_code
-set shiftwidth=4        " Indent with 4 spaces https://vim.fandom.com/wiki/Indenting_source_code
-set softtabstop=4       " Indent with 4 spaces https://vim.fandom.com/wiki/Indenting_source_code
-" Paste
-set paste               " Prevents Vim from auto-indenting the pasted code.
-set clipboard=unnamed   " Using the clipboard as the default register.
-                        " if vim -version | grep clibpboard == -clipboard and
-                        " -xterm_clipboard -> apt-get install vim-gtk
-" Screen information.
-set laststatus=2        " Displaying status line always.
-set nu                  " Show line numbers.
-set rnu                 " Line numbers relative to the current line.
-" Tmux
-set bg=dark             " Avoid color errors with tmux.
-```
+See [.vimrc](.vimrc).
 
 ### References
 
