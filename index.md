@@ -21,5 +21,5 @@ Wiki
 - [GNU-Linux](wiki/gnu-linux/gnu-linux.md)
 - [Python](wiki/python/python.md)
 - [Vim](wiki/vim/vim.md)
-- [Windows](wiki/windows/orientacion-pantalla.md)
+- [Windows](wiki/windows/windows.md)
 
