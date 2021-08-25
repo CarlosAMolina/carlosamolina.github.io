@@ -3,13 +3,13 @@ En esta entrada vemos cómo utilizar algunas opciones de DirBuster.
 ## Índice
 
 - [Preparar el laboratorio](#preparar-el-laboratorio)
-- [Configuración inicial](#configuracion-inicial)
-  - [DirBuster](#configuracion-inicial-dirbuster)
-  - [OWASP ZAP](#configuracion-inicial-owasp-zap)
+- [Setup inicial](#setup-inicial)
+  - [Setup inicial DirBuster](#setup-inicial-dirbuster)
+  - [Setup inicial OWASP ZAP](#setup-inicial-owasp-zap)
 - [Opciones descubrimiento DirBuster](#opciones-descubrimiento-dirbuster)
-  - [Opción `Brute force files` desactivada](#opcion-brute-force-files-desactivada)
+  - [`Brute force files` desactivada](#brute-force-files-desactivada)
   - [Opciones `Brute force files` y `Use Blank Extention` seleccionadas, `File extention` sin valor](#opciones-brute-force-files-y-use-blank-extention-seleccionadas-file-extention-sin-valor)
-  - [Opción `Brute force files` seleccionada, `Use Blank Extention` no seleccionada y `File extention` con valor](opcion-brute-force-files-seleccionada-use-blank-extention-no-seleccionada-y-file-extention-con-valor)
+  - [`Brute force files` seleccionada, `Use Blank Extention` no seleccionada y `File extention` con valor](#brute-force-files-seleccionada-use-blank-extention-no-seleccionada-y-file-extention-con-valor)
   - [Opciones `Brute force files` y `Use Blank Extention` seleccionadas y `File extention` con valor](#opciones-brute-force-files-y-use-blank-extention-seleccionadas-y-file-extention-con-valor)
 - [Recursos](#recursos)
 
@@ -31,11 +31,11 @@ Iniciar DirBuster:
 java -jar ~/Documentos/dirbuster/DirBuster-0.9.12/DirBuster-0.0.12.jar
 ```
 
-<a name="#configuracion-inicial"></a>
-### Configuración inicial 
+<a name="#setup-inicial"></a>
+### Setup inicial 
 
-<a name="#configuracion-inicial-dirbuster"></a>
-#### DirBuster
+<a name="#setup-inicial-dirbuster"></a>
+#### Setup inicial DirBuster
 
 - Target URL: http://127.0.0.1:80
 - File with list of dirs/files: /home/x/Documentos/dirbuster/DirBuster-0.9.12/test.txt
@@ -52,8 +52,8 @@ También, configuramos en DirBuster como proxy la dirección de OWASP ZAP para v
 ![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/dirbuster/dirbuster-configuracion-proxy.png)
 > Imagen. DirBuster configuración proxy
 
-<a name="#configuracion-inicial-owasp-zap"></a>
-#### OWASP ZAP
+<a name="#setup-inicial-owasp-zap"></a>
+#### Setup inicial OWASP ZAP
 
 - Menú herramientas > opciones… > Local proxies
 - Address: 127.0.0.1
@@ -81,8 +81,8 @@ En este apartado se analizan las opciones referentes al descubrimiento de archiv
 
     Buscar los archivos en el diccionario pero añadiéndoles la extensión especificada. En los siguientes apartados esto se ve gracias a ZAP proxy.
 
-<a name="#opcion-brute-force-files-desactivada"></a>
-### Opción `Brute force files` desactivada
+<a name="#brute-force-files-desactivada"></a>
+### `Brute force files` desactivada
 
 ![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/dirbuster/dirbuster-brute-force-dirs-configuracion.png)
 > Imagen. DirBuster configuración
@@ -115,8 +115,8 @@ De los archivos que hay en el diccionario, indica los existentes en la ruta prin
 
 Se observa que DirBuster busca algunos directorios por defecto, como `icons`.
 
-<a name="#opcion-brute-force-files-seleccionada-use-blank-extention-no-seleccionada-y-file-extention-con-valor"></a>
-### Opción `Brute force files` seleccionada, `Use Blank Extention` no seleccionada y `File extention` con valor
+<a name="#brute-force-files-seleccionada-use-blank-extention-no-seleccionada-y-file-extention-con-valor"></a>
+### `Brute force files` seleccionada, `Use Blank Extention` no seleccionada y `File extention` con valor
 
 ![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/dirbuster/dirbuster-brute-force-files-file-extention-configuracion.png)
 > Imagen. DirBuster configuración
