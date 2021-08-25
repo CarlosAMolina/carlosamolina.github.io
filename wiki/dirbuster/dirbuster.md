@@ -13,7 +13,7 @@ En esta entrada vemos cómo utilizar algunas opciones de DirBuster.
   - [Opciones `Brute force files` y `Use Blank Extention` seleccionadas y `File extention` con valor](#opciones-brute-force-files-y-use-blank-extention-seleccionadas-y-file-extention-con-valor)
 - [Recursos](#recursos)
 
-
+<a name="#preparar-el-laboratorio"></a>
 ## Preparar el laboratorio
 
 - OS máquina física: Debian Stretch.
@@ -31,8 +31,10 @@ Iniciar DirBuster:
 java -jar ~/Documentos/dirbuster/DirBuster-0.9.12/DirBuster-0.0.12.jar
 ```
 
+<a name="#configuracion-inicial"></a>
 ### Configuración inicial 
 
+<a name="#configuracion-inicial-dirbuster"></a>
 #### DirBuster
 
 - Target URL: http://127.0.0.1:80
@@ -50,6 +52,7 @@ También, configuramos en DirBuster como proxy la dirección de OWASP ZAP para v
 ![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/dirbuster/dirbuster-configuracion-proxy.png)
 > Imagen. DirBuster configuración proxy
 
+<a name="#configuracion-inicial-owasp-zap"></a>
 #### OWASP ZAP
 
 - Menú herramientas > opciones… > Local proxies
@@ -59,6 +62,7 @@ También, configuramos en DirBuster como proxy la dirección de OWASP ZAP para v
 ![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/dirbuster/owasp-zap-configuracion-proxy.png)
 > Imagen. OWAS ZAP configuración proxy
 
+<a name="#opciones-descubrimiento-dirbuster"></a>
 ## Opciones descubrimiento DirBuster
 
 En este apartado se analizan las opciones referentes al descubrimiento de archivos, sin incluir a los directorios, por lo que se analiza la ruta principal del servidor.
@@ -77,6 +81,7 @@ En este apartado se analizan las opciones referentes al descubrimiento de archiv
 
     Buscar los archivos en el diccionario pero añadiéndoles la extensión especificada. En los siguientes apartados esto se ve gracias a ZAP proxy.
 
+<a name="#opcion-brute-force-files-desactivada"></a>
 ### Opción `Brute force files` desactivada
 
 ![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/dirbuster/dirbuster-brute-force-dirs-configuracion.png)
@@ -92,6 +97,7 @@ Se observa que DisBuster ha añadido otros archivos y directorios además de los
 ![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/dirbuster/dirbuster-brute-force-dirs-resultados.png)
 > Imagen. DirBuster resultados
 
+<a name="#opciones-brute-force-files-y-use-blank-extention-seleccionadas-file-extention-sin-valor"></a>
 ### Opciones `Brute force files` y `Use Blank Extention` seleccionadas, `File extention` sin valor
 
 Al utilizarse la opción `Brute force files`, ya no es necesaria la de `Brute Force Dirs` para que el programa funcione.
@@ -109,6 +115,7 @@ De los archivos que hay en el diccionario, indica los existentes en la ruta prin
 
 Se observa que DirBuster busca algunos directorios por defecto, como `icons`.
 
+<a name="opcion-brute-force-files-seleccionada-use-blank-extention-no-seleccionada-y-file-extention-con-valor"></a>
 ### Opción `Brute force files` seleccionada, `Use Blank Extention` no seleccionada y `File extention` con valor
 
 ![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/dirbuster/dirbuster-brute-force-files-file-extention-configuracion.png)
@@ -124,6 +131,7 @@ En este caso, en el servidor no existen los archivos buscados:
 ![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/dirbuster/dirbuster-brute-force-files-file-extention-resultados.png)
 > Imagen. DirBuster resultados
 
+<a name="#opciones-brute-force-files-y-use-blank-extention-seleccionadas-y-file-extention-con-valor"></a>
 ### Opciones `Brute force files` y `Use Blank Extention` seleccionadas y `File extention` con valor
 
 Se buscan los archivo del diccionario como se han especificado en él y añadiéndoles la extensión descrita.
@@ -137,7 +145,7 @@ Se buscan los archivo del diccionario como se han especificado en él y añadié
 ![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/dirbuster/dirbuster-brute-force-files-use-blank-extention-file-extention-resultados.png)
 > Imagen. DirBuster resultados
 
-
+<a name="#recursos"></a>
 ## Recursos
 
 Instalar Apache
