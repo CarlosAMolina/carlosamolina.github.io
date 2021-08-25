@@ -115,7 +115,7 @@ De los archivos que hay en el diccionario, indica los existentes en la ruta prin
 
 Se observa que DirBuster busca algunos directorios por defecto, como `icons`.
 
-<a name="opcion-brute-force-files-seleccionada-use-blank-extention-no-seleccionada-y-file-extention-con-valor"></a>
+<a name="#opcion-brute-force-files-seleccionada-use-blank-extention-no-seleccionada-y-file-extention-con-valor"></a>
 ### Opción `Brute force files` seleccionada, `Use Blank Extention` no seleccionada y `File extention` con valor
 
 ![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/wiki/dirbuster/dirbuster-brute-force-files-file-extention-configuracion.png)
