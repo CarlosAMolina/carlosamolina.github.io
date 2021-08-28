@@ -26,5 +26,5 @@ Some projects have been used as a reference to develop this add-on:
 
 See the icons/LICENSE file of the project.
 
-Icons modified: <https://github.com/CarlosAMolina/workWithUrls-icons>
+Modified icons: <https://github.com/CarlosAMolina/workWithUrls-icons>
 

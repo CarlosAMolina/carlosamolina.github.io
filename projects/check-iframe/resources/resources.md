@@ -25,3 +25,5 @@ Some projects have been used as a reference to develop this add-on:
 ### Images
 
 See the icons/LICENSE file of the project.
+
+Modified icons: <https://github.com/CarlosAMolina/checkIframe-icons>
