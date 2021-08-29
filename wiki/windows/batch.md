@@ -17,7 +17,7 @@
 - `echo off`: no mostrar los comando por pantalla (los resultados si se muestran).
 - `echo.`: es igual que un salto de línea (\n).
 - `exit`: cerrar símbolo de sistema.
-- `pause>nul`: para que no aparezca mensaje por defecto de pausa (para usar otro mensaje, usar echo antes).
+- `pause>nul`: para que no aparezca mensaje por defecto de pausa (para usar otro mensaje, usar `echo` antes).
 - `rem:` comentario.
 - `type` o `more`: como cat.
 
@@ -44,7 +44,7 @@
 - `set /a suma = %numero1% + %numero2%`: hacer operaciones y guardarlas en variables.
 - `echo %NOMBREVARIABLE%`: llamar variable con %%.
 
-Importante. Para `set` no usar espacios entre `NOMBREVARIABLE` y el `=`. Si hay espacio antes del `=`, el espacio se añade al nombre de la variable y si hay espacio después del `=`, se guarda en la variable. Link <https://stackoverflow.com/questions/1884071/windows-echo-command-cant-echo-a-user-set-variable>.
+Importante. Para `set` no usar espacios entre `NOMBREVARIABLE` y el `=`. Si hay espacio antes del `=`, el espacio se añade al nombre de la variable y si hay espacio después del `=`, se guarda en la variable.
 
 <a name="#recursos"></a>
 ## Recursos
@@ -52,3 +52,7 @@ Importante. Para `set` no usar espacios entre `NOMBREVARIABLE` y el `=`. Si hay 
 Comandos para Batch
 
 <http://www.cristalab.com/tutoriales/programacion-batch-con-archivos-.bat-c48410l/>
+
+Espacio antes y después del símbolo `=` al declarar variables
+
+<https://stackoverflow.com/questions/1884071/windows-echo-command-cant-echo-a-user-set-variable>
