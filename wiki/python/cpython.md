@@ -1,4 +1,4 @@
-**Índice**
+**Contenidos**
 
 - [Etapas ejecución código](#etapas-ejecucion-codigo)
   - [Parser](#parser)
