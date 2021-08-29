@@ -1,13 +1,13 @@
 ## Contenidos
 
-- [Comandos básicos](#comandos-basicos)
+- [Comandos iniciales](#comandos-iniciales)
 - [Formato](#formato)
 - [Procesos](#procesos)
 - [Variables](#variables)
 - [Recursos](#recursos)
 
-<a name="#comandos-basicos"></a>
-## Comandos básicos
+<a name="#comandos-iniciales"></a>
+## Comandos iniciales
 
 - `>>`: añadir en la siguiente linea.
 - `>`: escribir/sobreescribir en un archivo.
