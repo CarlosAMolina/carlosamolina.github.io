@@ -1,4 +1,13 @@
-## Comando básicos
+## Contenidos
+
+- [Comandos básicos](#comandos-basicos)
+- [Formato](#formato)
+- [Procesos](#procesos)
+- [Variables](#variables)
+- [Recursos](#recursos)
+
+<a name="#comandos-basicos"></a>
+## Comandos básicos
 
 - `>>`: añadir en la siguiente linea.
 - `>`: escribir/sobreescribir en un archivo.
@@ -12,11 +21,13 @@
 - `rem:` comentario.
 - `type` o `more`: como cat.
 
+<a name="#formato"></a>
 ## Formato
 
-- `color AB`: A fondo B letras. `color/?` para ver opciones.
+- `color AB`: A color fondo y B color letras. `color/?` para ver opciones.
 - `Title TITULO`: cambiar título del símbolo de sistema.
 
+<a name="#procesos"></a>
 ## Procesos
 - `start PROCESO`.
 - `start ...exe`.
@@ -25,6 +36,7 @@
 - `start "" "C:\Program Files\Sublime Text 3\sublime_text.exe"`: iniciar aplicación.
 - `taskkill /f /im proceso.exe`: `/f` fuerza el cierre, para saber si `taskkill` funciona en el ordenador, utilizar `taskkill/?`.
 
+<a name="#variables"></a>
 ## Variables
 
 - `set NOMBREVARIABLE=VALOR`: declarar variable o modificar su valor.
@@ -32,8 +44,9 @@
 - `set /a suma = %numero1% + %numero2%`: hacer operaciones y guardarlas en variables.
 - `echo %NOMBREVARIABLE%`: llamar variable con %%.
 
-Importante. Para `set` no usar espacios entre `NOMBREVARIABLE` y el `=`. Si hay espacio antes del `=`, el espacio se añade al nombre de la variable y si hay espacio después del `=`, se guarda en la variable. Link <https://stackoverflow.com/questions/1884071/windows-echo-command-cant-echo-a-user-set-variable)>.
+Importante. Para `set` no usar espacios entre `NOMBREVARIABLE` y el `=`. Si hay espacio antes del `=`, el espacio se añade al nombre de la variable y si hay espacio después del `=`, se guarda en la variable. Link <https://stackoverflow.com/questions/1884071/windows-echo-command-cant-echo-a-user-set-variable>.
 
+<a name="#recursos"></a>
 ## Recursos
 
 Comandos para Batch
