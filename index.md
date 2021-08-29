@@ -18,8 +18,9 @@ Wiki
 
 - [DirBuster](wiki/dirbuster/dirbuster.md)
 - [Git](wiki/git.md)
-- [GNU-Linux](wiki/gnu-linux/gnu-linux.md)
+- [GNU/Linux](wiki/gnu-linux/gnu-linux.md)
 - [Python](wiki/python/python.md)
+- [Sublime Text](wiki/sublime-text/sublime-text.md)
 - [Vim](wiki/vim/vim.md)
 - [Windows](wiki/windows/windows.md)
 
