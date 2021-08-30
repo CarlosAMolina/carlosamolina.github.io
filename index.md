@@ -16,7 +16,7 @@ Proyectos
 
 Wiki
 
-- [ClamAV](clamav/clamav.md)
+- [ClamAV](wiki/clamav/clamav.md)
 - [DirBuster](wiki/dirbuster/dirbuster.md)
 - [Git](wiki/git.md)
 - [GNU/Linux](wiki/gnu-linux/gnu-linux.md)
