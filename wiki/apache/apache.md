@@ -9,4 +9,4 @@
 
 `/var/www/html`
 
-Para acceder a lo que haya en la ruta anterior desde el navegador web, utilizar la URL `http://localhost/ARCHIVO-DESEADO`.
+Para acceder a lo que haya en la ruta anterior desde el navegador web, utilizar la URL <http://localhost/ARCHIVO-DESEADO>.
