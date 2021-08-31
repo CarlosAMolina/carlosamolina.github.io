@@ -7,7 +7,7 @@
 - [Proyecto y app](#proyecto-y-app)
   - [Proyecto](#proyecto)
   - [App](#app)
-    - [Incluir la app en settings.py](#incluir-la-app-en-settings.py)
+    - [Incluir la app en settings.py](#incluir-la-app-en-settingspy)
 - [Vistas](#vistas)
   - [URLs](#urls)
     - [URLconf](#urlconf)
@@ -17,7 +17,7 @@
 - [Crear usuario admin](#crear-usuario-admin)
 - [settings.py](#settingspy)
   - [Zona horaria](#zona-horaria)
-  - [Apps intaladas en el proyecto](#apps-intaladas-en-el-proyecto)
+  - [Apps instaladas en el proyecto](#apps-instaladas-en-el-proyecto)
 - [models.py](#modelspy)
 - [Referencias](#referencias)
 
