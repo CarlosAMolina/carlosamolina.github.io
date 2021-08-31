@@ -15,10 +15,10 @@
     - [include()](#include)
     - [path()](#path)
 - [Crear usuario admin](#crear-usuario-admin)
-- [settings.py](#settings-py)
+- [settings.py](#settingspy)
   - [Zona horaria](#zona-horaria)
   - [Apps intaladas en el proyecto](#apps-intaladas-en-el-proyecto)
-- [models.py](#models.py)
+- [models.py](#modelspy)
 - [Referencias](#referencias)
 
 
