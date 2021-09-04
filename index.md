@@ -20,7 +20,7 @@ Wiki
 - [ClamAV](wiki/clamav/clamav.md)
 - [Django](wiki/django/django.md)
 - [DirBuster](wiki/dirbuster/dirbuster.md)
-- [Gimp](wiki/gimp.md)
+- [Gimp](wiki/gimp/gimp.md)
 - [Git](wiki/git.md)
 - [GNU/Linux](wiki/gnu-linux/gnu-linux.md)
 - [Python](wiki/python/python.md)
