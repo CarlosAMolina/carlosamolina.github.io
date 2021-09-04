@@ -1,6 +1,6 @@
 ## Contenidos
 
-- [Reglas existentes](#ver-reglas-existentes)
+- [Reglas existentes](#reglas-existentes)
   - [Mostrar reglas existentes](#mostrar-reglas-existentes)
   - [Ruta reglas](#ruta-reglas)
 - [Guardar reglas](#guardar-reglas)
