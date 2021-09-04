@@ -23,6 +23,7 @@ Wiki
 - [Gimp](wiki/gimp/gimp.md)
 - [Git](wiki/git.md)
 - [GNU/Linux](wiki/gnu-linux/gnu-linux.md)
+- [iptables](wiki/iptables/iptables.md)
 - [Python](wiki/python/python.md)
 - [Snort](wiki/snort/snort.md)
 - [Sublime Text](wiki/sublime-text/sublime-text.md)
