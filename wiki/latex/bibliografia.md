@@ -3,13 +3,13 @@
 - [Paths](#paths)
   - [plainnat.bst](#plainnatbst)
 - [Caracteres no ASCII](#caracteres-no-ascii)
-- [Formato](#formato)
+- [Orden](#orden)
+  - [Ordenar alfabéticamente](#ordenar-alfabéticamente)
   - [Orden apellido, nombre](#orden-apellido-nombre)
-- [Ordenar alfabéticamente](#ordenar-alfabéticamente)
 - [URLs](#urls)
   - [Mostrar URL](#mostrar-URL)
   - [Cortar URLs](#cortar-URLs)
-- [Errores](#Errores)
+- [Errores](#errores)
   - [Texmaker muestra interrogación en lugar de número](#texmaker-muestra-interrogación-en-lugar-de-número)
   - [Al compilar siempre se tiene error](#al-compilar-siempre-se-tiene-error)
 
@@ -27,15 +27,15 @@ Escribir del siguiente modo:
 - ñ: \~n
 - º: \textordmasculine{ } ({ } para que haya espacio después)
 
-## Formato
+## Orden
+
+### Ordenar alfabéticamente
+
+Para ordenar alfabéticamente, escribir siempre el autor entre doble llave. Ejm `{{ xxx }}`.
 
 ### Orden apellido, nombre
 
-Link <https://tex.stackexchange.com/questions/131087/displaying-authors-name-in-a-bibliographic-entry-in-the-form-surname-first-in>
-
-## Ordenar alfabéticamente
-
-Para ordenar alfabéticamente: escribir siempre el autor entre doble llave. Ejm `{{ xxx }}`.
+Link <https://tex.stackexchange.com/questions/131087/displaying-authors-name-in-a-bibliographic-entry-in-the-form-surname-first-in>.
 
 ## URLs
 
@@ -46,7 +46,7 @@ Mostrar URL por ejemplo de un tipo @ article:
 - Importar paquete URL: `\usepackage{url}`
 - Utilizar: `\bibliographystyle{plainurl}`
 
-Link <https://tex.stackexchange.com/questions/21633/url-for-article-and-other-entries-of-the-bib-file>
+Link <https://tex.stackexchange.com/questions/21633/url-for-article-and-other-entries-of-the-bib-file>.
 
 ### Cortar URLs
 
