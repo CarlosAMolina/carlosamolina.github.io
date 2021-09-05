@@ -1,12 +1,12 @@
 ## Contenidos
 
-[Instalar add-on](#instalar-add-on)
-[Archivos](#archivos)
-[manifest.json](#manifest-json)
-[icons](#icons)
-[file.js](#file-js)
-[Editar add-on en la web de extensiones](#editar-add-on-en-la-web-de-extensiones)
-[Recursos](#recursos)
+- [Instalar add-on](#instalar-add-on)
+- [Archivos](#archivos)
+  - [manifest.json](#manifestjson)
+  - [icons](#icons)
+  - [file.js](#filejs)
+- [Editar add-on en la web de extensiones](#editar-add-on-en-la-web-de-extensiones)
+- [Recursos](#recursos)
 
 ## Instalar add-on
 
