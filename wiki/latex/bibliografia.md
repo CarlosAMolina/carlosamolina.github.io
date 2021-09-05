@@ -10,9 +10,8 @@
   - [Mostrar URL](#mostrar-URL)
   - [Cortar URLs](#cortar-URLs)
 - [Errores](#Errores)
-  - [Texmaker sale interrogación en lugar de número](#texmaker-sale-interrogación-en-lugar-de-número)
-  - [Al compilar siempre se tiene error](#
-al-compilar-siempre-se-tiene-error)
+  - [Texmaker muestra interrogación en lugar de número](#texmaker-muestra-interrogación-en-lugar-de-número)
+  - [Al compilar siempre se tiene error](#al-compilar-siempre-se-tiene-error)
 
 ## Paths
 
@@ -61,7 +60,7 @@ Link <https://tex.stackexchange.com/questions/115690/urls-in-bibliography-latex-
 
 ## Errores
 
-### Texmaker sale interrogación en lugar de número
+### Texmaker muestra interrogación en lugar de número
 
 Menú `opciones` > `configurar texmaker` > `compilacion rapida`: `pdflatx+bi(la)tex+pdflatex(x2)+viewpdf`.
 
