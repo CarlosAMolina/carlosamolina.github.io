@@ -1,10 +1,13 @@
 ## Contenidos
 
 - [Instalación](instalacion.md)
+- [Acentos](acentos.md)
 - [Bibliografía](bibliografia.md)
+- [Comandos](comandos.md)
 - [Diagramas de flujo](diagramas-de-flujo.md)
 - [Enumeración](enumeracion.md)
 - [Errores](errores.md)
+- [Espaciado](espaciado.md)
 - [Excel](excel.md)
 - [Hyperlink](hyperlink.md)
 - [Imágenes](imagenes.md)
@@ -12,3 +15,5 @@
 - [Paquetes](paquetes.md)
 - [Referencias](referencias.md)
 - [Rutas](rutas.md)
+- [Símbolos](simbolos.md)
+- [Subsecciones](subsecciones.md)
