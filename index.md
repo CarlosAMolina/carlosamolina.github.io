@@ -26,7 +26,7 @@ Wiki
 - [Git](wiki/git.md)
 - [GNU/Linux](wiki/gnu-linux/gnu-linux.md)
 - [iptables](wiki/iptables/iptables.md)
-- [LaTex](wiki/latex/latex.md)
+- [LaTeX](wiki/latex/latex.md)
 - [PentesterLab](wiki/pentesterlab/pentesterlab.md)
 - [Python](wiki/python/python.md)
 - [Snort](wiki/snort/snort.md)

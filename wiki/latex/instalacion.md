@@ -13,6 +13,6 @@ La opción anterior ocupa casi 20 GB, de querer instalar otra opción más liger
 
 ## Recursos
 
-Instalar LaTex en Debian 
+Instalar LaTeX en Debian 
 
 <https://wiki.debian.org/Latex>
