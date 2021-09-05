@@ -8,7 +8,7 @@
 - [Excel](excel.md)
 - [Hyperlink](hyperlink.md)
 - [Imágenes](imagenes.md)
-- [Márgenes hoja](margenes-hoja.md)
+- [Márgenes](margenes.md)
 - [Paquetes](paquetes.md)
 - [Referencias](referencias.md)
 - [Rutas](rutas.md)
