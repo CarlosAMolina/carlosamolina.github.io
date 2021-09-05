@@ -1,5 +1,8 @@
 ## Contenidos
 
+- [Compilación](#compilación)
+  - [Texmaker](#texmaker)
+  - [Terminal](#terminal)
 - [Paths](#paths)
   - [plainnat.bst](#plainnatbst)
 - [Caracteres no ASCII](#caracteres-no-ascii)
@@ -12,6 +15,23 @@
 - [Errores](#errores)
   - [Texmaker muestra interrogación en lugar de número](#texmaker-muestra-interrogación-en-lugar-de-número)
   - [Al compilar siempre se tiene error](#al-compilar-siempre-se-tiene-error)
+- [Recursos](#Recursos)
+
+## Compilación
+
+### Texmaker
+
+Dar a menú herramientas > BibTex y LaTex y PDFLatex(no preocuparse si este da error): F2(error, no problema), F6, F11 y luego compilación rápida (F1)
+
+Link <http://tex.stackexchange.com/questions/67431/bib-file-does-not-update-in-texmakerx-when-i-build-the-file>
+
+### Terminal
+
+Para que el índice aparezca correctamente, ejecutar el siguiente comandos dos veces:
+
+```bash
+lualatex archivo.tex
+```
 
 ## Paths
 
@@ -67,3 +87,13 @@ Menú `opciones` > `configurar texmaker` > `compilacion rapida`: `pdflatx+bi(la)
 ### Al compilar siempre se tiene error
 
 Si nunca deja de aparecer un error, compilar solo la biografía (Bibtex), aunque de error, después compilar como siempre.
+
+## Recursos
+
+Alternativas software
+
+<http://alternativeto.net/software/jabref/>
+
+Tutorial bibliografía
+
+<http://minisconlatex.blogspot.com.es/2011/03/bibliografia.html>
