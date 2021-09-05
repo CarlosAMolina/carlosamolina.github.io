@@ -4,8 +4,8 @@
   - [plainnat.bst](#plainnatbst)
 - [Caracteres no ASCII](#caracteres-no-ascii)
 - [Formato](#formato)
-  - [Orden apellido, nombre](#Orden-apellido-nombre)
-- [Orden](#orden)
+  - [Orden apellido, nombre](#orden-apellido-nombre)
+- [Ordenar alfabéticamente](#ordenar-alfabéticamente)
 - [URLs](#urls)
   - [Mostrar URL](#mostrar-URL)
   - [Cortar URLs](#cortar-URLs)
@@ -33,7 +33,7 @@ Escribir del siguiente modo:
 
 Link <https://tex.stackexchange.com/questions/131087/displaying-authors-name-in-a-bibliographic-entry-in-the-form-surname-first-in>
 
-## Orden
+## Ordenar alfabéticamente
 
 Para ordenar alfabéticamente: escribir siempre el autor entre doble llave. Ejm `{{ xxx }}`.
 
