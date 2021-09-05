@@ -1,3 +1,10 @@
+## Contenidos
+
+- [Tamaño márgenes](#Tamaño-márgenes)
+- [Recursos](#Recursos)
+
+## Tamaño márgenes
+
 ```bash
 \usepackage{anysize}
 \marginsize{3cm}{2cm}{2cm}{2cm}
