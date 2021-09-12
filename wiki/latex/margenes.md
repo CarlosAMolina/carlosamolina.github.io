@@ -1,7 +1,7 @@
 ## Contenidos
 
-- [Tamaño márgenes](#Tamaño-márgenes)
-- [Recursos](#Recursos)
+- [Tamaño márgenes](#tamaño-márgenes)
+- [Recursos](#recursos)
 
 ## Tamaño márgenes
 

@@ -1,7 +1,7 @@
 ## Contenidos
 
-- [Comillas](#Comillas)
-- [Símbolos](#Símbolos)
+- [Comillas](#comillas)
+- [Símbolos](#símbolos)
 
 ## Comillas
 

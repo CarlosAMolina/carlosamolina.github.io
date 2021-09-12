@@ -1,8 +1,8 @@
 ## Contenidos
 
-- [Consideraciones](#Consideraciones)
-  - [Espacio antes de la figura](#Espacio-antes-de-la-figura)
-- [Recursos](#Recursos)
+- [Consideraciones](#consideraciones)
+  - [Espacio antes de la figura](#espacio-antes-de-la-figura)
+- [Recursos](#recursos)
 
 ## Consideraciones
 

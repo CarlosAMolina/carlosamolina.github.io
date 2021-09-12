@@ -1,6 +1,7 @@
 ## Contenidos
 
-- [Símbolos](#Símbolos)
+- [Símbolos](#símbolos)
+- [Recursos](#recursos)
 
 ## Símbolos
 

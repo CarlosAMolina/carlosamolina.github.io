@@ -1,7 +1,7 @@
 ## Contenidos
 
-- [Nivel cuatro](#Nivel-cuatro)
-- [Recursos](#Recursos)
+- [Nivel cuatro](#nivel-cuatro)
+- [Recursos](#recursos)
 
 ## Nivel cuatro
 

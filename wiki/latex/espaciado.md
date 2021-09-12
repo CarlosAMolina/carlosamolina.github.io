@@ -1,7 +1,7 @@
 ## Contenidos
 
-- [Vertical](#Vertical)
-- [Entre párrafo, lista, itemize](#Entre-párrafo-lista-itemize)
+- [Vertical](#vertical)
+  - [Entre párrafo, lista, itemize](#entre-párrafo-lista-itemize)
 
 ## Vertical
 

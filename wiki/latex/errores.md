@@ -1,7 +1,7 @@
 ## Contenidos
 
-- [Errores de compilación](#Errores-de-compilación)
-  - [Error que nunca se soluciona](#Error-que-nunca-se-soluciona)
+- [Errores de compilación](#errores-de-compilación)
+  - [Error que nunca se soluciona](#error-que-nunca-se-soluciona)
 
 ## Errores de compilación
 

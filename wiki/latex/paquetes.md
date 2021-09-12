@@ -1,6 +1,6 @@
 ## Contenidos
 
-- [Ejemplo de paquetes](#Ejemplo-de-paquetes)
+- [Ejemplo de paquetes](#ejemplo-de-paquetes)
 
 ## Ejemplo de paquetes
 

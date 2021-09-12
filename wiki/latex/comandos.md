@@ -1,7 +1,7 @@
 ## Contenidos
 
-- [Ejemplo](#Ejemplo)
-- [Recursos](#Recursos)
+- [Ejemplo](#ejemplo)
+- [Recursos](#recursos)
 
 ## Ejemplo
 
