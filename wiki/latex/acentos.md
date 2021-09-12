@@ -10,7 +10,7 @@ Si en algunas partes no permite utilizar acentos, pese haber incluido los paquet
 Utilizar los acentos del siguiente modo. Ejemplo
 
 ```bash
-\'Indice -> Õndice
+\'Indice -> √çndice
 ```
 
 Link <http://nokyotsu.com/latex/acentos.html>
