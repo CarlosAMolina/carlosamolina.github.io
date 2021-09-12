@@ -10,12 +10,12 @@
   - [Ordenar alfabéticamente](#ordenar-alfabéticamente)
   - [Orden apellido, nombre](#orden-apellido-nombre)
 - [URLs](#urls)
-  - [Mostrar URL](#mostrar-URL)
-  - [Cortar URLs](#cortar-URLs)
+  - [Mostrar URL](#mostrar-url)
+  - [Cortar URLs](#cortar-urls)
 - [Errores](#errores)
   - [Texmaker muestra interrogación en lugar de número](#texmaker-muestra-interrogación-en-lugar-de-número)
   - [Al compilar siempre se tiene error](#al-compilar-siempre-se-tiene-error)
-- [Recursos](#Recursos)
+- [Recursos](#recursos)
 
 ## Compilación
 
