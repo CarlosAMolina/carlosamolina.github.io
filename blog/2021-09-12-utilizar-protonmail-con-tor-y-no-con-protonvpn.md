@@ -1,13 +1,11 @@
-Me pareció curioso que la empresa Proton aconseje el uso de Tor y no de una VPN como ProtonVPN para utilizar ProtonMail de manera anónima. Comparto algunos detalles sobre este tema.
-
-# Porqué utilizar ProtonMail con Tor y no con ProtonVPN
+# Utilizar ProtonMail con Tor y no con ProtonVPN
 
 ## Contenidos
 
 - [Introducción](#Introducción)
 - [Investigación](#Investigación)
 - [Conclusión](#Conclusión)
-- [Notas finales](#Notas_finales)
+- [Recursos](#Recursos)
 
 ## Introducción
 
@@ -15,7 +13,7 @@ Esta semana, la noticia sobre que ProtonMail facilitó la dirección IP de un us
 
 Desde sus cuentas oficiales, la empresa Proton respondió a estos comentarios explicando [qué ha sucedido y porqué actuaron de este modo](https://protonmail.com/blog/climate-activist-arrest/). En resumen, bajo orden judicial, debido a las leyes Suizas tuvieron que dar la dirección IP del usuario investigado.
 
-En las respuestas explican que están enfocados a la privacidad (que los archivos, mails, etc. que almacenamos solo pueden ser accedidos por nosotros) pero, para ser anónimo (evitar que se sepan datos como nuestra IP por ejemplo) [recomiendan usar la red Tor y no una VPN](https://protonmail.com/blog/climate-activist-arrest/). Me pregunté porqué ProtonVPN no sería suficiente y estas son las conclusiones que he sacado.
+En las respuestas explican que están enfocados a la privacidad (que los archivos, mails, etc. que almacenamos solo pueden ser accedidos por nosotros) pero, para ser anónimo (evitar que se sepan datos como por ejemplo nuestra IP) [recomiendan usar la red Tor y no una VPN](https://protonmail.com/blog/climate-activist-arrest/). Me pregunté porqué ProtonVPN no sería suficiente y estas son las conclusiones que he sacado.
 
 ## Investigación
 
