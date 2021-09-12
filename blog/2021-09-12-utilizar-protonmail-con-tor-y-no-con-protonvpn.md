@@ -45,6 +45,10 @@ IP de un usuario facilitada por ProtonMail a las autoridades Suizas y privacidad
 
 <https://protonmail.com/blog/climate-activist-arrest/>
 
+Noticia en The Hackers News
+
+<https://thehackernews.com/2021/09/protonmail-shares-activists-ip-address.html>
+
 Recolección información ProtonMail
 
 <https://protonmail.com/privacy-policy>
