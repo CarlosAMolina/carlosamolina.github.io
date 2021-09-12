@@ -2,10 +2,10 @@
 
 ## Contenidos
 
-- [Introducción](#Introducción)
-- [Investigación](#Investigación)
-- [Conclusión](#Conclusión)
-- [Recursos](#Recursos)
+- [Introducción](#introducción)
+- [Investigación](#investigación)
+- [Conclusión](#conclusión)
+- [Recursos](#recursos)
 
 ## Introducción
 
