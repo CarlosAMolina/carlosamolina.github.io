@@ -1,14 +1,14 @@
 ## Contenidos
 
-- [Tamaño márgenes](#tamaño-márgenes)
+- [TamaÃ±o mÃ¡rgenes](#tamaÃ±o-mÃ¡rgenes)
 - [Recursos](#recursos)
 
-## Tamaño márgenes
+## TamaÃ±o mÃ¡rgenes
 
 ```bash
 \usepackage{anysize}
 \marginsize{3cm}{2cm}{2cm}{2cm}
-% Controla los márgenes {izquierda}{derecha}{arriba}{abajo}. 
+% Controla los mÃ¡rgenes {izquierda}{derecha}{arriba}{abajo}. 
 ```
 
 ## Recursos

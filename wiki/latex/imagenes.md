@@ -19,7 +19,7 @@ La siguiente imagen:
 \end{figure}
 ```
 
-Debe ser así:
+Debe ser asÃ­:
 
 ```bash
 La siguiente imagen:
@@ -39,6 +39,6 @@ Subfiguras
 
 <http://tex.stackexchange.com/questions/55640/trying-to-put-a-box-around-a-collection-of-subfigures>
 
-Tutorial imágenes
+Tutorial imÃ¡genes
 
 <https://es.sharelatex.com/learn/Inserting_Images#A.C3.B1adir_etiquetas.2C_leyendas_y_referencias>

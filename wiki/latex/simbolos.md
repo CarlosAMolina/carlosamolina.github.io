@@ -1,7 +1,7 @@
 ## Contenidos
 
 - [Comillas](#comillas)
-- [Símbolos](#símbolos)
+- [SÃ­mbolos](#sÃ­mbolos)
 
 ## Comillas
 
@@ -10,8 +10,8 @@ Simples: `novato'
 Dobles: ``novato"
 ```
 
-## Símbolos
+## SÃ­mbolos
 
 - `\`: \textbackslash
-- `¿`: ?`
+- `Â¿`: ?`
 
