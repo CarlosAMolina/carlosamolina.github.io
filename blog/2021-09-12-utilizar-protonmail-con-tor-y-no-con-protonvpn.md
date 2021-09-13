@@ -74,7 +74,7 @@ ProtonMail con Tor
 
 <https://protonmail.com/tor>
 
-Comentario Proton en Linkedin
+Comentario de Proton en LinkedIn
 
 <https://www.linkedin.com/feed/update/urn:li:activity:6842781257714159616?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6842781257714159616%2C6843100674788491265%29>
 
