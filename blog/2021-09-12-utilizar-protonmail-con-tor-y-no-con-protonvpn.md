@@ -5,6 +5,7 @@
 - [Introducción](#introducción)
 - [Investigación](#investigación)
 - [Conclusión](#conclusión)
+- [Nota final](#nota-final)
 - [Recursos](#recursos)
 
 ## Introducción
@@ -39,6 +40,12 @@ Para resolver esto, recomiendan [utilizar Tor](https://protonmail.com/tor), porq
 
 La idea que he sacado es que, para conseguir el anonimato no se puede depender solamente de la compañía Proton o utilizar VPN de otra empresa. Son curiosos los detalles del funcionamiento de cada servicio.
 
+## Nota final
+
+En un comentario a esta entrada del blog, el equipo de [Proton señaló](https://www.linkedin.com/feed/update/urn:li:activity:6842781257714159616?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6842781257714159616%2C6843100674788491265%29) (muchas gracias) que Tor es una mejor alternativa en algunos threat models, para otros recomiendan ProtonVPN:
+
+> Hi! Please note that our blogpost you quoted in your article simply indicates that, for certain threat models, Tor network may be a better approach to using a VPN. However, if your threat model is covered by VPN technology, we recommend ProtonVPN.
+
 ## Recursos
 
 IP de un usuario facilitada por ProtonMail a las autoridades Suizas y privacidad VS anonimato
@@ -66,4 +73,8 @@ Recolección información ProtonMail VS ProtonVPN
 ProtonMail con Tor
 
 <https://protonmail.com/tor>
+
+Comentario Proton en Linkedin
+
+<https://www.linkedin.com/feed/update/urn:li:activity:6842781257714159616?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6842781257714159616%2C6843100674788491265%29>
 
