@@ -13,7 +13,7 @@
 
 ## Definición
 
-Clases deben ser abiertas para extensión, pero cerradas para modificación.
+Las clases deben ser abiertas para extensión, pero cerradas para modificación.
 
 Es decir, nuevas funcionalidades deben añadirse con nuevas clases (por extensión), no modificando la clase o clases existentes.
 
