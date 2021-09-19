@@ -5,6 +5,7 @@
 - [Bibliografía](bibliografia.md)
 - [Comandos](comandos.md)
 - [Diagramas de flujo](diagramas-de-flujo.md)
+- [Diccionario](diccionario.md)
 - [Enumeración](enumeracion.md)
 - [Errores](errores.md)
 - [Espaciado](espaciado.md)
