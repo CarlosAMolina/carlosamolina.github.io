@@ -25,7 +25,7 @@ Wiki
 - [Facebook](wiki/facebook/facebook.md)
 - [Firefox](wiki/firefox/firefox.md)
 - [Gimp](wiki/gimp/gimp.md)
-- [Git](wiki/git.md)
+- [Git](wiki/git/git.md)
 - [GNU/Linux](wiki/gnu-linux/gnu-linux.md)
 - [iptables](wiki/iptables/iptables.md)
 - [LaTeX](wiki/latex/latex.md)

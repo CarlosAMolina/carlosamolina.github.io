@@ -2,18 +2,21 @@ Nota. Palabras en mayúsculas precedidas por el símbolo $ indica que deben sust
 
 **Índice**
 
-- [Configuración inicial](#configuracioninicial)
-- [Crear repositorio remoto desde el repositorio local](#remotodesdelocal)
-- [Cambiar nombre de un repositorio](#cambiarnombrerepositorio)
-- [Staging area](#stagingarea)
-- [Volver a un commit anterior](#commitanterior)
-- [Continous integration](#continousintegration)
+- [Configuración inicial](#configuración-inicial)
+- [Crear repositorio remoto desde el repositorio local](#crear-repositorio-remoto-desde-un-repositorio-local)
+- [Cambiar nombre de un repositorio](#cambiar-nombre-de-un-repositorio)
+  - [GitLab](#gitlab)
+- [Staging area](#staging-area)
+- [Volver a un commit anterior](#volver-a-un-commit-anterior)
+- [Continous integration](#continous-integration)
 - [SSH](#ssh)
-- [Osint](#osint)
-  - [Email de quién realizó el commit](#emailcommit)
+  - [Consideraciones](#consideraciones)
+  - [Error authentication failed](#error-authentication-failed)
+- [OSINT](#osint)
+  - [Email de quién realizó el commit](#email-de-quién-realizó-el-commit)
 
-<a name="configuracioninicial"></a>
-# Configuración inicial
+
+## Configuración inicial
 
 ```bash
 git config --global user.name "$USER_NAME"
@@ -31,8 +34,7 @@ git -c http.sslVerify false
 git -c http.sslVerify=False
 ```
 
-<a name="remotodesdelocal"></a>
-# Crear repositorio remoto desde un repositorio local 
+## Crear repositorio remoto desde un repositorio local 
 
 https://docs.gitlab.com/ee/gitlab-basics/create-project.html
 
@@ -48,10 +50,9 @@ Paso 2. Hacer push. Ejm:
 git push --set-upstream https://$DOMINIO/$USER/$REPOSITORY_NAME.git master
 ```
 
-<a name="cambiarnombrerepositorio"></a>
-# Cambiar nombre de un repositorio 
+## Cambiar nombre de un repositorio 
 
-## Gitlab
+### GitLab
 
 https://docs.gitlab.com/ee/user/project/settings/
 
@@ -59,8 +60,7 @@ Ir a configuración del repositorio: https://domain/user/project/edit
 
 Advanced settings > Rename repository: cambiar project name y path.
 
-<a name="stagingarea"></a>
-# Staging area
+## Staging area
 
 https://git-scm.com/about/staging-area
 
@@ -82,8 +82,7 @@ git commit -m "$MENSAJE_PARA_EL_COMMIT"
 
 <img src="https://git-scm.com/images/about/index1@2x.png" alt="" width="300">
 
-<a name="commitanterior"></a>
-# Volver a un commit anterior
+## Volver a un commit anterior
 
 https://stackoverflow.com/questions/4114095/how-to-revert-a-git-repository-to-a-previous-commit/4114122
 
@@ -95,8 +94,7 @@ git reset --hard HEAD
 git reset --hard $COMMIT_ID
 ```
 
-<a name="continousintegration"></a>
-# Continous integration
+## Continous integration
 
 Ver runner en una máquina:
 
@@ -104,8 +102,7 @@ Ver runner en una máquina:
 ps -ef | grep runner
 ```
 
-<a name="ssh"></a>
-# SSH
+## SSH
 
 El protocolo SSH nos permite ejecutar los comandos de git en el servidor remoto sin tener que indicar nuestro usuario y contraseña.
 
@@ -115,7 +112,7 @@ https://help.github.com/en/github/authenticating-to-github/connecting-to-github-
 
 https://docs.gitlab.com/ee/ssh/
 
-## Consideraciones
+### Consideraciones
 
 Para poder utilizar el protocolo SSH y no introducir nuestras credenciales, el repositorio con el que estemos trabajando debe haberse descargado del siguiente modo:
 
@@ -124,7 +121,7 @@ git clone git@$SERVIDOR:$USUARO/$REPOSITORIO
 # Ejm: git clone git@github.com:psf/requests
 ```
 
-## Error authentication failed
+### Error authentication failed
 
 En caso de tener error de autenticación al utilizar los comandos de git, puede ser debido a tener activado el doble factor de autenticación; en este caso, hay que utilizar como credenciales un token.
 
@@ -132,11 +129,9 @@ Los pasos para tener este token están explicado en el siguiente enlace:
 
 https://mycyberuniverse.com/how-fix-fatal-authentication-failed-for-https-github-com.html
 
-<a name="osint"></a>
-# Osint
+## OSINT
 
-<a name="emailcommit"></a> 
-## Email de quién realizó el commit 
+### Email de quién realizó el commit 
 
 Opción 1.
 
@@ -161,4 +156,3 @@ https://api.github.com/repos/$USER/$REPOSITORY_NAME/git/commits/$COMMIT_ID
 ```
 
 Nota. Es posible configurar que se oculte el mail de quien realizó el commit, pero los commits realizados antes de esta configuración seguirán mostrando el email (https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address).
-
