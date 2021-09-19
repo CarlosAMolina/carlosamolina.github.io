@@ -4,7 +4,7 @@
 
 - [Abreviatura](#abreviatura)
 - [Definición](#definición)
-- [Utilidades](#utilidades)
+- [Utilidad](#utilidad)
 - [Ejemplo](#ejemplo)
 
 ## Abreviatura
@@ -20,7 +20,7 @@ Esto no quiere decir que una clase deba hacer solo una cosa (ver ejemplo).
 
 Una clase debe tener solo una razón para cambiar, esa razón tiene que estar relacionada con la responsabilidad principal de la clase.
 
-## Utilidades
+## Utilidad
 
 Evita el anti patrón `God object` que puede llevar a tener clases muy grandes.
 
