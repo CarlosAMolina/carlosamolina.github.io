@@ -2,7 +2,6 @@
 
 ## Contenidos
 
-- [Contenidos](#contenidos)
 - [Abreviatura](#abreviatura)
 - [Definición](#definición)
 - [Utilidades](#utilidades)
