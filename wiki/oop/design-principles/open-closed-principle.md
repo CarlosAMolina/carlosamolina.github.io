@@ -27,6 +27,6 @@ Evita problemas a la hora de que el código escale.
 
 Una clase que filtra productos por sus características, de no cumplir el principio, cada vez que se añada un nuevo criterio de filtrado hay que modificar la clase añadiendo nuevos métodos.
 
-Para cumplir el principio, crearíamos clases para gestionar las características de los elementos y filtrarlas, de modo que se pueden añadir nuevos criterios de filtrado sin modificar las clases existentes.
+Para cumplir el principio, crearíamos clases que gestionen las características de los elementos y su filtrado, de modo que se pueden añadir nuevos criterios de filtrado sin modificar las clases existentes.
 
 Código de ejemplo: <https://github.com/CarlosAMolina/design-principles>
