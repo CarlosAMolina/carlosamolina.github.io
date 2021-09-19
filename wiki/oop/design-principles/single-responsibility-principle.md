@@ -22,7 +22,7 @@ Una clase debe tener solo una razón para cambiar, esa razón tiene que estar re
 
 ## Utilidad
 
-Evita el anti patrón `God object` que puede llevar a tener clases muy grandes.
+Evita el antipatrón `God object` que puede llevar a tener clases muy grandes.
 
 ## Ejemplo
 

@@ -7,6 +7,6 @@
 
 ### Definición
 
-Una clase que hace muchas cosas.
+Una clase con muchas responsabilidades.
 
 No respeta el single responsability principle.
