@@ -26,4 +26,8 @@ Evita el anti patrón `God object` que puede llevar a tener clases muy grandes.
 
 ## Ejemplo
 
-<https://github.com/CarlosAMolina/design-principles>
+Una clase que guarda los elementos de la lista de la compra puede añadir elementos y eliminarlos, hace varias acciones pero tiene una única responsabilidad, la de gestionar los elementos.
+
+De querer exportar la información de la lista de la compra para guardarla en un archivo, esto debe realizarlo otra clase, no la lista que gestiona los elementos porque tendría varias responsabilidades.
+
+Código de ejemplo: <https://github.com/CarlosAMolina/design-principles>

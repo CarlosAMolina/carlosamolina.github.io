@@ -1,3 +1,4 @@
 ## Contenidos
 
-[Single responsibility principle](single-responsibility-principle.md)
+[Single Responsibility Principle](single-responsibility-principle.md)
+[Open-Closed Principle](open-closed-principle.md)
