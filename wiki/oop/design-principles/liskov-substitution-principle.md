@@ -13,7 +13,7 @@
 
 ## Definición
 
-Una clase padre puede ser sustituida por cualquier otra clase que herede de ella y el programa debe seguir funcionando.
+Una clase padre puede ser sustituida por cualquier otra clase que herede de ella y el programa debe seguir funcionando correctamente.
 
 ## Utilidad
 
