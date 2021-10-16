@@ -1,4 +1,4 @@
-## Índice
+## Contenidos
 
 - [Codificación](#codificación)
 - [CPython](#cpython)
