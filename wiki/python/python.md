@@ -1,15 +1,19 @@
 ## Índice
 
-- [Codificación](#codificacion)
+- [Codificación](#codificación)
 - [CPython](#cpython)
 - [Decorator](#decorator)
-- [Entorno virtuales](#venv)
-- [Paréntesis](#parentesis)
+- [Entorno virtuales](#entorno-virtuales)
+  - [Python 2](#python-2)
+  - [Entornos virtuales y penv](#entornos-virtuales-y-penv)
+- [Paréntesis](#paréntesis)
 - [Pip](#pip)
-- [pipenv: pip y entornos virtuales](#pipenv)
-- [Versión de python](#version)
+- [pipenv: pip y entornos virtuales](#pipenv-pip-y-entornos-virtuales)
+- [Special methods](#special-methods)
+- [Versión de python](#versión-de-python)
+  - [De manera manual](#de-manera-manual)
+  - [pyenv](#pyenv)
 
-<a name=codificacion></a>
 ## Codificación
 
 ```python
@@ -23,17 +27,14 @@ Type: str -> Unicode
 language.decode('utf-8')
 ```
 
-<a name="cpython"></a>
 ## CPython
 
 Ver [cpython](cpython.md).
 
-<a name="decorator"></a>
 ## Decorator
 
 https://realpython.com/primer-on-python-decorators/
 
-<a name="venv"></a>
 ## Entorno virtuales
 
 https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
@@ -61,7 +62,6 @@ source env/bin/activate
 
 Ver [pyenv](pyenv.md).
 
-<a name="parentesis"></a>
 ## Paréntesis
 
 De no utilizar paréntesis, se tiene una referencia a la función, ejm:
@@ -74,19 +74,21 @@ Con paréntesis: se llama al resultado de evaluar la función (llamar a la funci
 
 https://realpython.com/primer-on-python-decorators/
 
-<a name="pip"></a>
 ## Pip
 
 ```bash
 pip install -r requirements.txt
 ```
 
-<a name="pipenv"></a>
 ## pipenv: pip y entornos virtuales
 
 Para trabajar con pip y entornos virtuales, explicación en [pipenv](pipenv.md).
 
-<a name="version"></a>
+## Special methods
+
+Ver [special methods](special-methods.md).
+
+
 ## Versión de python
 
 Podemos instalar diferentes versiones de Python en nuestro equipo, de manera manual o mediante un gestor de versiones.
