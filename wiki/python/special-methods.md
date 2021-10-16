@@ -2,6 +2,6 @@
 
 - [\_\_repr__ vs \_\_str__](#__repr__-vs-__str__)
 
-## __repr__ vs __str__
+## \_\_repr__ vs \_\_str__
 
-Por defecto, __str__ llama a __repr__, por lo que __repr__ debe añadirse siempre a las clases.
+Por defecto, \_\_str__ llama a \_\_repr__, por lo que \_\_repr__ debe añadirse siempre a las clases.
