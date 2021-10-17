@@ -25,9 +25,9 @@ También, evita modificar partes que dependan de otras que no necesitan cuando e
 
 ## Ejemplo
 
-Una interfaz encargada de describir un equipo multifunción puede realizar acciones como imprimir, enviar un fax y escanear un documento.
+Una interfaz encargada de describir un equipo multifunción realiza acciones como imprimir, enviar un fax y escanear un documento.
 
-Puede que haya clases que deriven de esta interfaz pero que solo necesiten imprimir y escanear, pero no enviar un fax.
+Puede que haya clases que deriven de esta interfaz que solo necesiten imprimir y escanear, pero no enviar un fax.
 
 Al ser clases que no implementan todos los métodos de la interfaz, de llamarlos causarán error o no se produce el comportamiento esperado.
 
