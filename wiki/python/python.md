@@ -5,6 +5,7 @@
 - [Decorator](#decorator)
 - [Entorno virtuales](#entorno-virtuales)
   - [Python 2](#python-2)
+  - [Python 3](#python-3)
   - [Entornos virtuales y penv](#entornos-virtuales-y-penv)
 - [Paréntesis](#paréntesis)
 - [Pip](#pip)
@@ -58,6 +59,31 @@ python -m virtualenv env
 ```bash
 source env/bin/activate
 ```
+
+### Python 3
+
+#### Instalar
+
+```bash
+pip install venv
+
+# Segunda opción
+
+sudo apt-get install python3-venv
+```
+
+#### Crear
+
+```bash
+python -m venv env
+```
+
+#### Activar
+
+```bash
+source env/bin/activate
+```
+
 ### Entornos virtuales y penv
 
 Ver [pyenv](pyenv.md).
