@@ -33,6 +33,8 @@ Esto es un problema porque, al cambiar la manera de almacenar la información (p
 
 Solución:
 
-- No depender de las implementaciones internas. La clase que guarda las relaciones debe proporcionar un método para buscar en la información abstrayéndonos de cómo se almacena. Para ello lo primero es definir una interfaz para la clase que guarde las relaciones con un método para buscar relaciones, de modo que la clase que hace las búsquedas llame a ese método en lugar de usar directamente la implementación del almacenamiento.
+- No depender de las implementaciones internas. La clase que guarda las relaciones debe proporcionar un método para buscar en la información abstrayéndonos de cómo se almacena.
+
+  Para ello, lo primero es definir una interfaz para la clase que guarde las relaciones con un método para buscar relaciones, de modo que la clase que hace las búsquedas llame a ese método en lugar de usar directamente la implementación del almacenamiento.
 
 Código de ejemplo: <https://github.com/CarlosAMolina/design-principles>
