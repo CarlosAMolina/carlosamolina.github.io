@@ -29,7 +29,7 @@ También, hay una clase para hacer búsquedas específicas en estas relaciones, 
 
 Si la clase que hace la búsqueda utiliza directamente el mecanismo para guardar la información, en este caso la lista de tuplas, habrá aspectos de bajo nivel en una clase de alto nivel.
 
-Esto es un problema porque, al cambiar la manera de almacenar la información (por ejemplo utilizando un diccionario o una base de datos o sustituyendo la base de datos por una lista para hacer tests en local), habrá que cambiar también la clase que realiza las búsquedas, es decir, cambios en la clase de bajo nivel implica cambios en las de alto nivel.
+Esto es un problema porque, al cambiar la manera de almacenar la información (por ejemplo, en lugar de la lista utilizar un diccionario o una base de datos, o al hacer tests sustituir la base de datos por una lista para hacer tests en local, etc.), habrá que cambiar también la clase que realiza las búsquedas, es decir, cambios en la clase de bajo nivel implica cambios en las de alto nivel.
 
 Solución:
 
