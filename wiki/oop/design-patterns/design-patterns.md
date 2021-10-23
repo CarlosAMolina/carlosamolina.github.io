@@ -1,3 +1,10 @@
+## Contenidos
+
+- [Categorías](#categorías)
+  - [Creational Patterns](#creational-patterns)
+  - [Structural Patterns](#structural-patterns)
+  - [Behavioral Patterns](#behavioral-patterns)
+
 ## Categorías
 
 ### Creational Patterns
