@@ -5,6 +5,7 @@
 - [Abreviatura](#abreviatura)
 - [Definición](#definición)
 - [Utilidad](#utilidad)
+- [Ideas](#ideas)
 - [Ejemplo](#ejemplo)
 
 ## Abreviatura
@@ -22,6 +23,10 @@ Es decir, nuevas funcionalidades deben añadirse con nuevas clases (por extensi�
 Añadir nuevas funcionalidades sin tener que modificar las clases existentes.
 
 Evita problemas a la hora de que el código escale.
+
+## Ideas
+
+- Al trabajar con una clase que ya existe, tiene sus tests, etc. Para añadir nuevas funcionalidades, es mejor usar herencia que modificar la clase.
 
 ## Ejemplo
 
