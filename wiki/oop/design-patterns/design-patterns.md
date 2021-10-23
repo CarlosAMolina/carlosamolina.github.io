@@ -1,0 +1,13 @@
+## Categorías
+
+### Creational Patterns
+
+Enfocados a la creación de objetos.
+
+### Structural Patterns
+
+Tratan la composición de la clase, cómo se relaciona con su interfaz.
+
+### Behavioral Patterns
+
+Diferentes maneras de solucionar problemas, cómo las clases interactúan y distribuyen responsabilidades.
