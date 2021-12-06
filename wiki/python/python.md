@@ -129,7 +129,7 @@ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \
        libncurses5-dev libncursesw5-dev xz-utils tk-dev
 ```
 
-Tras esto, descargamos e instalamos la versión de Python deseada ([referencia](https://exitcode0.net/debian-10-how-to-upgrade-python-3-7-to-python-3-9/)). Ejemplo:
+Descargamos e instalamos la versión de Python deseada ([referencia](https://exitcode0.net/debian-10-how-to-upgrade-python-3-7-to-python-3-9/)). Ejemplo:
 
 ```bash
 wget https://www.python.org/ftp/python/3.9.1/Python-3.9.1.tar.xz
