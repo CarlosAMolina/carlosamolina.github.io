@@ -121,7 +121,15 @@ Podemos instalar diferentes versiones de Python en nuestro equipo, de manera man
 
 ### De manera manual
 
-Primero, descargamos e instalamos la versión de Python deseada ([referencia](https://exitcode0.net/debian-10-how-to-upgrade-python-3-7-to-python-3-9/)). Ejemplo:
+Instalamos las dependencias necesarias ([link]<https://realpython.com/installing-python/#step-2-prepare-your-system>):
+
+```bash
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \
+       libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
+       libncurses5-dev libncursesw5-dev xz-utils tk-dev
+```
+
+Tras esto, descargamos e instalamos la versión de Python deseada ([referencia](https://exitcode0.net/debian-10-how-to-upgrade-python-3-7-to-python-3-9/)). Ejemplo:
 
 ```bash
 wget https://www.python.org/ftp/python/3.9.1/Python-3.9.1.tar.xz
