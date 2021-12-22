@@ -8,6 +8,7 @@
   - [Python 3](#python-3)
   - [Entornos virtuales y penv](#entornos-virtuales-y-penv)
 - [Paréntesis](#paréntesis)
+- [PEP 8](#pep-8)
 - [Pip](#pip)
 - [pipenv: pip y entornos virtuales](#pipenv-pip-y-entornos-virtuales)
 - [Special methods](#special-methods)
@@ -99,6 +100,10 @@ De no utilizar paréntesis, se tiene una referencia a la función, ejm:
 Con paréntesis: se llama al resultado de evaluar la función (llamar a la función de manera normal).
 
 https://realpython.com/primer-on-python-decorators/
+
+## PEP 8
+
+Ver [PEP 8](pep-8.md).
 
 ## Pip
 
