@@ -1,6 +1,10 @@
 ## Contenidos
 
 - [Motivación](#motivación)
+- [Ejemplo](#ejemplo)
+  - [Un solo builder](#un-solo-builder)
+  - [Varios builders](#varios-builders)
+  - [Herencia](#herencia)
 
 ## Motivación
 
