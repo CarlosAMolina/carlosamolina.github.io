@@ -10,7 +10,7 @@ Ayuda cuando la inicialización requiere muchos argumentos.
 
 ## Tipos
 - [Factory Method](factory_method.md): la inicialización se lleva a un método.
-- Factory: la inicialización se lleva a otra clase.
+- [Factory](factory.md): la inicialización se lleva a otra clase.
 - Abstract Factory: se utiliza una jerarquía de factories.
 
 ## Diferencia con Builder
