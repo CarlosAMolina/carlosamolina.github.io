@@ -2,7 +2,7 @@
 - [Motivación](#motivación)
 - [Ejemplo](#ejemplo)
 
-## Idea
+## Motivación
 
 Si tienes una jerarquía de tipos, también puedes tener una jerarquía de factories.
 
