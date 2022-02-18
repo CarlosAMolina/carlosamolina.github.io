@@ -40,5 +40,5 @@ Tenemos dos oficinas, una principal y otra auxiliar. Los empleados de cada ofici
 
 Con el Prototype Factory la creación de estos trabajadores se facilita.
 
-Código de ejemplo: <https://github.com/CarlosAMolina/design-patterns/blob/main/creational-patterns/prototype/prototype-factory.py>
+Código de ejemplo: <https://github.com/CarlosAMolina/design-patterns/blob/main/creational-patterns/prototype/prototype_factory.py>
 
