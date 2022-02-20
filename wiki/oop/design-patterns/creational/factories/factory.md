@@ -8,6 +8,8 @@
 
 Un factory es cualquier entidad que se encargue de la creación de un objeto.
 
+Normalmente es stateless, no necesita tener atributos, es normal que los métodos enfocados a la creación de objetos sean estáticos, por lo que no es necesario inicializarlo.
+
 
 ## Motivación
 
