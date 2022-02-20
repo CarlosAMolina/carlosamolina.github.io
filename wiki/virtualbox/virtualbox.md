@@ -5,7 +5,7 @@
 - [Botones](#botones)
 - [Compartir carpetas entre VBox y host anfitrión](#compartir-carpetas-entre-vbox-y-host-anfitrión)
   - [Compartir archivos](#compartir-archivos)
-    - [Máquina virtual con Gnu/Linux](#máquina-virtual-con-gnu/linux)
+    - [Máquina virtual con Gnu/Linux](#máquina-virtual-con-gnulinux)
     - [Máquina virtual con Windows](#máquina-virtual-con-windows)
   - [Posibles errores](#posibles-errores)
     - [Paso inicial](#paso-inicial)
