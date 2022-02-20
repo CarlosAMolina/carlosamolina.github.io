@@ -14,6 +14,7 @@ Enfocados a la creación de objetos.
 - [Builder](creational/builder.md)
 - [Factories](creational/factories/factories.md)
 - [Prototype](creational/prototype/prototype.md)
+- [Singleton](creational/singleton/singleton.md)
 
 ### Structural Patterns
 
