@@ -22,6 +22,10 @@ Se utiliza el magic method `__new__`, pero si la clase tiene el método `__init_
 
 Soluciona el problema de Singleton Allocator por el que se inicia el `__init__`.
 
+### Singleton Metaclass
+
+Igual que Singleton Decorator pero utiliza una clase intermedia en lugar de un decorator.
+
 ## Ejemplo
 
 ### Ejemplo Singleton Allocator
@@ -31,4 +35,8 @@ Código de ejemplo: <https://github.com/CarlosAMolina/design-patterns/blob/main/
 ### Ejemplo Singleton Decorator
 
 Código de ejemplo: <https://github.com/CarlosAMolina/design-patterns/blob/main/creational-patterns/singleton/singleton_decorator.py>
+
+### Ejemplo Singleton Metaclass
+
+Código de ejemplo: <https://github.com/CarlosAMolina/design-patterns/blob/main/creational-patterns/singleton/singleton_metaclass.py>
 
