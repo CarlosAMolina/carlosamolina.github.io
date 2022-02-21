@@ -18,8 +18,17 @@ Controlamos si un objeto ya se ha inicializado:
 
 Se utiliza el magic method `__new__`, pero si la clase tiene el método `__init__`, hay que tener cuidado porque, aunque se devuelva la misma instancia de la clase, el método `__init__` se ejecutará cada vez que se inicialice el objeto.
 
+### Singleton Decorator
+
+Soluciona el problema de Singleton Allocator por el que se inicia el `__init__`.
+
 ## Ejemplo
 
 ### Ejemplo Singleton Allocator
 
 Código de ejemplo: <https://github.com/CarlosAMolina/design-patterns/blob/main/creational-patterns/singleton/singleton_allocator.py>
+
+### Ejemplo Singleton Decorator
+
+Código de ejemplo: <https://github.com/CarlosAMolina/design-patterns/blob/main/creational-patterns/singleton/singleton_decorator.py>
+
