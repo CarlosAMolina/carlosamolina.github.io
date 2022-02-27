@@ -1,5 +1,12 @@
 # Network 
 
+## Contenidos
+
+- [Configurar interfaces](#configurar-interfaces)
+  - [Introducción](#introducción)
+  - [Configuración manual](#configuración-manual)
+  - [Configuración automática con DHCP](#configuración-automática-con-dhcp)
+
 ## Configurar interfaces
 
 Este apartado describe la configuración utilizada en Arch Linux
