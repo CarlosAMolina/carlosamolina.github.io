@@ -6,6 +6,7 @@
   - [Introducción](#introducción)
   - [Configuración manual](#configuración-manual)
   - [Configuración automática con DHCP](#configuración-automática-con-dhcp)
+- [Recursos](#recursos)
 
 ## Configurar interfaces
 
@@ -102,3 +103,7 @@ sudo systemctl enable systemd-networkd
 ```
 
 Pueden verse los servicios iniciados con `sudo systemctl --type=service`.
+
+## Recursos
+
+<https://wiki.archlinux.org/title/Network_configuration>
