@@ -2,6 +2,7 @@
 
 **Índice**
 
+- [Network](network.md)
 - [Reemplazar texto en archivos](#reemplazar-texto-en-archivos)
 
 <a name="reemplazar-texto-en-archivos"></a>
