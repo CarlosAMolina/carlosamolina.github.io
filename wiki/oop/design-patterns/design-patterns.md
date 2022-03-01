@@ -20,6 +20,8 @@ Enfocados a la creación de objetos.
 
 Tratan la composición de la clase, cómo se relaciona con su interfaz.
 
+- [Adapter](structural/adapter/adapter.md)
+
 ### Behavioral Patterns
 
 Diferentes maneras de solucionar problemas, cómo las clases interactúan y distribuyen responsabilidades.
