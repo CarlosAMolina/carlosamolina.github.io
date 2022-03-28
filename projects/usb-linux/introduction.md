@@ -112,3 +112,33 @@ ls /dev/sd*
 If the usb has a light, it will be turned off.
 
 ## Automatice work with an usb
+
+The USB mount and unmount process has been automaticed in the project [usb-linux](https://github.com/carlosamolina/usb-linux). Lets see how to configure it.
+
+First, download the project, for example in `~/Software/usb-linux/` and build the Rust package:
+
+```bash
+cd ~/Software/usb-linux/src/usb/
+cargo test
+cargo build
+```
+
+Add a symlink to the binary:
+
+```bash
+sudo ln -s $HOME/Software/usb-linux/src/usb/target/debug/usb /usr/local/bin/usb
+```
+
+Create the folder where the USB will be mounted:
+
+```bash
+sudo mkdir /media/usb
+```
+
+Now, the previous steps to start or end an USB can be done with these commands:
+
+```bash
+usb sdc1 on # Mount an USB.
+usb sdc1 off # Unmount, eject and power-off an USB.
+```
+
