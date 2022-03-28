@@ -115,6 +115,8 @@ If the usb has a light, it will be turned off.
 
 The USB mount and unmount process has been automaticed in the project [usb-linux](https://github.com/carlosamolina/usb-linux). Lets see how to configure it.
 
+### Start and end working with an USB
+
 First, download the project, for example in `~/Software/usb-linux/` and build the Rust package:
 
 ```bash
@@ -141,4 +143,8 @@ Now, the previous steps to start or end an USB can be done with these commands:
 usb sdc1 on # Mount an USB.
 usb sdc1 off # Unmount, eject and power-off an USB.
 ```
+
+With this configuration, some manual steps are avoided but we still need the USB device's name. Lets configure a notification that will give us this value.
+
+### Notify the USB device
 
