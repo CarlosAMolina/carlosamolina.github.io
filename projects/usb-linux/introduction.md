@@ -122,7 +122,7 @@ First, install and configure the required software:
 - [Rust](https://www.rust-lang.org/tools/install)
 - [Dunst](https://wiki.archlinux.org/title/Dunst#Installation)
 
-To configure Dunst, for example in [i3](https://i3wm.org/), add these lines to the `~/.config/i3/config` file (you can check my [dotfiles](https://github.com/CarlosAMolina/dotfiles/blob/main/dotfiles/config/i3/config)):
+To configure Dunst, for example in [i3](https://i3wm.org/), add the following line to the `~/.config/i3/config` file (you can check my [dotfiles](https://github.com/CarlosAMolina/dotfiles/blob/main/dotfiles/config/i3/config)):
 
 ```bash
 exec --no-startup-id dunst
@@ -158,4 +158,18 @@ usb sdc1 off # Unmount, eject and power-off an USB.
 With this configuration, some manual steps are avoided but we still need the USB device's name. Lets configure a notification that will give us this value.
 
 ### Notify the USB device
+
+In order to know the name given to the USB device, we will monitor the `/dev` path with `inotifywait`:
+
+```bash
+sudo apt-get install -y inotify-tools
+```
+
+In [i3](https://i3wm.org/), add the following line to the `~/.config/i3/config` file (you can check my [dotfiles](https://github.com/CarlosAMolina/dotfiles/blob/main/dotfiles/config/i3/config)):
+
+```bash
+exec --no-startup-id $HOME/Software/usb-linux/src/bash/monitor
+```
+
+The previous script will show a notification with the device`s name each time a new one is detected.
 
