@@ -10,6 +10,8 @@ The objetive of this project is to automatice all the steps to connect and disco
 
 ## Work with an usb manually
 
+Some of the following commands require the installation of additional software, see the automaticed sections to know how to install them.
+
 ### Mount an usb manually
 
 A connected usb will appear in the path `/dev` starting with `sd`. The part to mount will have the same name ending in a number.
