@@ -119,7 +119,7 @@ The USB mount and unmount process has been automaticed in the project [usb-linux
 
 First, install and configure the required software:
 
-- [Rust](https://www.rust-lang.org/tools/install).
+- [Rust](https://www.rust-lang.org/tools/install)
 - [Dunst](https://wiki.archlinux.org/title/Dunst#Installation)
 
 To configure Dunst, for example in [i3](https://i3wm.org/), add these lines to the `~/.config/i3/config` file (you can check my [dotfiles](https://github.com/CarlosAMolina/dotfiles/blob/main/dotfiles/config/i3/config)):
@@ -128,7 +128,7 @@ To configure Dunst, for example in [i3](https://i3wm.org/), add these lines to t
 exec --no-startup-id dunst
 ```
 
-Download the project, for example in `~/Software/usb-linux/` and build the Rust package://www.rust-lang.org/tools/install)):
+Download the project, for example in `~/Software/usb-linux/` and build the Rust package:
 
 ```bash
 cd ~/Software/usb-linux/src/usb/
