@@ -117,7 +117,7 @@ The USB mount and unmount process has been automaticed in the project [usb-linux
 
 ### Start and end working with an USB
 
-First, download the project, for example in `~/Software/usb-linux/` and build the Rust package:
+First, download the project, for example in `~/Software/usb-linux/` and build the Rust package ([Rust must be installed](https://www.rust-lang.org/tools/install):
 
 ```bash
 cd ~/Software/usb-linux/src/usb/
