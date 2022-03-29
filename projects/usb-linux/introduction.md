@@ -121,6 +121,7 @@ First, install and configure the required software:
 
 - [Rust](https://www.rust-lang.org/tools/install)
 - [Dunst](https://wiki.archlinux.org/title/Dunst#Installation)
+- [udisks2](https://wiki.archlinux.org/title/Udisks#Installation)
 
 To configure Dunst, for example in [i3](https://i3wm.org/), add the following line to the `~/.config/i3/config` file (you can check my [dotfiles](https://github.com/CarlosAMolina/dotfiles/blob/main/dotfiles/config/i3/config)):
 
