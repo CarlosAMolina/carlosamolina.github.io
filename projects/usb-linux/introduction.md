@@ -63,7 +63,7 @@ udisksctl mount -b /dev/sdb1
 To disconnect an usb, three steps are required:
 
 - Unmount.
-- Eject.
+- Eject. Note: maybe this step is not required.
 - Power off.
 
 #### Unmount an usb manually
@@ -102,6 +102,8 @@ udisksctl unmount -b /dev/sdb1
 ```
 
 #### Eject an usb manually
+
+Note. This step can be omitted, I think it isn't required thanks to the power off option that we will run in the next section.
 
 The path to eject is the usb raw device, in this example its value is `/dev/sdc`:
 
