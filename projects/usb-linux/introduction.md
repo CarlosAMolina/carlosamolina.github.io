@@ -32,7 +32,11 @@ ls /dev/sd*
 
 In this example, the usb is `/dev/sdc` and the part with the data to mount is `/dev/sdc1`.
 
-In order to access de usb data, I have to mount `/dev/sdc1`, I will do it in `/media/usb`:
+In order to access de usb data, I have to mount `/dev/sdc1`
+
+#### Mount an usb manually with sudo
+
+To mount an usb in a defined path, for example in `/media/usb`, the `sudo mount` command is required:
 
 ```bash
 sudo mount /dev/sdc1 /media/usb
@@ -45,6 +49,15 @@ ls /media/usb/
 # test.txt
 ```
 
+#### Mount an usb manually without sudo
+
+To avoid run sudo commands, we can use the `udisksctl` command, but this won't allow us to set the target path where the device will be mounted:
+
+```bash
+udisksctl mount -b /dev/sdb1
+# Mounted /dev/sdb1 at /run/media/USER/12345abc-1234-12aa-1a1a-abcdefghijkl
+```
+
 ### Disconnect an usb manually
 
 To disconnect an usb, three steps are required:
@@ -54,6 +67,8 @@ To disconnect an usb, three steps are required:
 - Power off.
 
 #### Unmount an usb manually
+
+#### Unmount an usb manually with sudo
 
 We can unmount the part with the usb data (`/dev/sdc1`) or the folder where the usb was mounted (`/media/usb`):
 
@@ -76,6 +91,15 @@ ls /media/usb/
 ```
 
 Now the usb can be ejected.
+
+#### Unmount an usb manually without sudo
+
+This can be done with:
+
+```bash
+udisksctl unmount -b /dev/sdb1
+# Unmounted /dev/sdb1.
+```
 
 #### Eject an usb manually
 
