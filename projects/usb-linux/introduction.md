@@ -8,6 +8,8 @@ We will have to run the commands to mount the device and, when we want to discon
 
 The objetive of this project is to automatice all the steps to connect and disconnect an usb in a Gnu/Linux system. First, we will see how to do it manually and then, how to automatice the process using some scripts that I developed.
 
+I don't want to reinvent the wheel, there are lots of good [projects](https://wiki.archlinux.org/title/Udisks#Mount_helpers) with the same objetive. This project was for me an oportunity to learn Gnu/Linux and Rust.
+
 ## Work with an usb manually
 
 Some of the following commands require the installation of additional software, see the automaticed sections to know how to install them.
