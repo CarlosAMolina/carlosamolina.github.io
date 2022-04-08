@@ -2,7 +2,7 @@
 
 ## Introduction
 
-When we connect an USB device, we hope to see it on the screen and start working with it. This is how computers works, but not always. What happens if we are using a system that does not take the required actions to mount the USB device? For example, with a Tiling Windows Manager.
+When we connect an USB device, we hope to see it on the screen and start working with it. This is how computers work, but not always. What happens if we are using a system that does not take the required actions to mount the USB device? For example, a tiling windows manager like [i3](https://i3wm.org/).
 
 In these cases, we must run the commands to mount the device and, when we want to disconnect it, more commands to unmount and extract the USB are required. This is fine to learn how to work with an USB but repeat this every day is a waste of time.
 
