@@ -1,5 +1,25 @@
 # USB Linux
 
+## Contents
+
+- [Introduction](#introduction)
+- [Work with an USB manually](#work-with-an-usb-manually)
+  - [Mount an USB manually](#mount-an-usb-manually)
+    - [Mount an USB manually with sudo](#mount-an-usb-manually-with-sudo)
+    - [Mount an USB manually without sudo](#mount-an-usb-manually-without-sudo)
+  - [Disconnect an USB manually](#disconnect-an-usb-manually)
+    - [Unmount an USB manually](#unmount-an-usb-manually)
+    - [Unmount an USB manually with sudo](#unmount-an-usb-manually-with-sudo)
+    - [Unmount an USB manually without sudo](#unmount-an-usb-manually-without-sudo)
+    - [Eject an USB manually](#eject-an-usb-manually)
+    - [Power off an USB manually](#power-off-an-usb-manually)
+- [Automate work with an USB](#automate-work-with-an-usb)
+  - [Start and end working with an USB](#start-and-end-working-with-an-usb)
+  - [Notify the USB device](#notify-the-usb-device)
+- [FAQ](#faq)
+  - [inotify-tools vs udevadm](#inotify-tools-vs-udevadm)
+- [Resources](#resources)
+
 ## Introduction
 
 When we connect an USB device, we hope to see it on the screen and start working with it. This is how computers work, but not always. What happens if we are using a system that does not take the required actions to mount the USB device? For example, a tiling windows manager like [i3](https://i3wm.org/).
