@@ -14,8 +14,8 @@
     - [Eject an USB manually](#eject-an-usb-manually)
     - [Power off an USB manually](#power-off-an-usb-manually)
 - [Automate work with an USB](#automate-work-with-an-usb)
-  - [Start and end working with an USB](#start-and-end-working-with-an-usb)
-  - [Notify the USB device](#notify-the-usb-device)
+  - [Automate start and end working with an USB](#automate-start-and-end-working-with-an-usb)
+  - [Automate notify the USB device](#automate-notify-the-usb-device)
 - [FAQ](#faq)
   - [inotify-tools vs udevadm](#inotify-tools-vs-udevadm)
 - [Resources](#resources)
@@ -168,7 +168,7 @@ If the USB has a light, it will be turned off.
 
 The USB mount and unmount processes has been automated in the project [usb-linux](https://github.com/carlosamolina/usb-linux). Let's see how to configure it!
 
-### Start and end working with an USB
+### Automate start and end working with an USB
 
 First, install and configure the required software:
 
@@ -205,7 +205,7 @@ usb /dev/sdc1 off # Unmount, eject and power-off an USB.
 
 With this configuration, some manual steps are avoided but we still need the USB device's name. Let's configure a notification that will give us this value.
 
-### Notify the USB device
+### Automate notify the USB device
 
 In order to know the name given to the USB device, in [i3](https://i3wm.org/), add the following line to the `~/.config/i3/config` file (you can check my [dotfiles](https://github.com/CarlosAMolina/dotfiles/blob/main/dotfiles/config/i3/config):
 
