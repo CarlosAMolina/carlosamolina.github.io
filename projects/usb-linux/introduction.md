@@ -6,7 +6,7 @@ When we connect an USB device, we hope to see it on the screen and start working
 
 In these cases, we must run the commands to mount the device and, when we want to disconnect it, more commands to unmount and extract the USB are required. This is fine to learn how to work with an USB but repeat this every day is a waste of time.
 
-The aim of this project is to automate all the steps to connect and disconnect an USB in a Gnu/Linux system. First, we will see how to do it manually and then, how to automate the process with some scripts that I developed.
+The aim of [this project](https://github.com/CarlosAMolina/usb-linux) is to automate all the steps to connect and disconnect an USB in a Gnu/Linux system. First, we will see how to do it manually and then, how to automate the process with some scripts that I developed.
 
 I don't want to reinvent the wheel, there are lots of good [projects](https://wiki.archlinux.org/title/Udisks#Mount_helpers) with the same objective. This project was an opportunity to learn Gnu/Linux and Rust.
 
@@ -205,3 +205,8 @@ The previous script will monitor new USB devices and call the Rust binary to sho
 The first approach to monitor when a new device is connected was to use [inotify-tools](https://github.com/inotify-tools/inotify-tools) pointing to the `/dev` path, but it raises an error if the USB is mounted automatically after being detected.
 
 The error is [Error looking up object for device](https://github.com/storaged-project/udisks/issues/711) and is avoided using `udevadm` as the [Arch Linux wiki shows](https://wiki.archlinux.org/title/Udisks#udevadm_monitor).
+
+
+## Resources
+
+- Project: <https://github.com/CarlosAMolina/usb-linux>
