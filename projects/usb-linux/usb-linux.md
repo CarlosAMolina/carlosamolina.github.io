@@ -182,9 +182,11 @@ To configure Dunst, for example in [i3](https://i3wm.org/), add the following li
 exec --no-startup-id dunst
 ```
 
-Download the project, for example in `~/Software/usb-linux/`, and build the Rust package:
+Download the [project](https://github.com/CarlosAMolina/usb-linux) and build the Rust package:
 
 ```bash
+cd ~/Software/
+git clone git@github.com:carlosamolina/usb-linux
 cd ~/Software/usb-linux/src/usb/
 cargo test # Check the tests pass.
 cargo build
