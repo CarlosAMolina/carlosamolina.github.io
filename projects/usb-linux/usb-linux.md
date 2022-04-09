@@ -30,8 +30,8 @@ The aim of [this project](https://github.com/CarlosAMolina/usb-linux) is to auto
 
 I don't want to reinvent the wheel, there are lots of good [projects](https://wiki.archlinux.org/title/Udisks#Mount_helpers) with the same objective. This project was an opportunity to learn Gnu/Linux and Rust.
 
-![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/projects/usb-linux/notification-on.png)
-> Image. USB connection notification
+![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/projects/usb-linux/desktop-notification-on.png)
+> Image. Desktop USB connection notification
 
 ## Work with an USB manually
 
