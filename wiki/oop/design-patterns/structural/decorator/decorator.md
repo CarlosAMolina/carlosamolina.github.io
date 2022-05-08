@@ -28,4 +28,6 @@ Ejemplo: <https://github.com/CarlosAMolina/design-patterns/blob/main/structural-
 
 Permite, desde la clase decoradora, acceder a la clase decorada.
 
+Hay que modificar los magic methods.
+
 Ejemplo: <https://github.com/CarlosAMolina/design-patterns/blob/main/structural-patterns/decorator/dynamic_decorator.py>.
