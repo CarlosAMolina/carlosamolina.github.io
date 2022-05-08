@@ -6,6 +6,10 @@
 
 ## Motivación
 
+Los objetos pueden relacionarse mediante herencia o por composición (objetos se guardan como atributos de otros).
+
+Algunos objetos compuestos y no compuestos tienen comportamientos similares. Con el patrón de diseño `Composite` gestionamos estos objetos de manera uniforme.
+
 Su objetivo es tratar objetos individuales y objetos que sean composición de varios objetos de la misma manera.
 
 ## Ejemplo
