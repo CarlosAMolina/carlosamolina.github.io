@@ -20,6 +20,12 @@ Ejemplo medir el tiempo que dura una función: <https://github.com/CarlosAMolina
 
 En lugar de utilizar la sintaxis de Python para decorar (utilizando `@`), creamos una clase que será el decorador a la que le pasaremos el objeto a decorar.
 
-Estas clases decoradoras presentan el inconveniente de que, desde el objeto decorado resultante, no podremos acceder a los métodos de la clase inicial que se ha decorado.
+Estas clases decoradoras presentan el inconveniente de que, desde el objeto decorado resultante, no podremos acceder  a la clase que se ha decorado, por ejemplo, para acceder a sus métodos, habría que redefinirlos en la clase decoradora y esto no es práctico. Esto se corrige con el `dynamic decorator`.
 
 Ejemplo: <https://github.com/CarlosAMolina/design-patterns/blob/main/structural-patterns/decorator/oop_decorator.py>.
+
+### Dynamic decorator
+
+Permite, desde la clase decoradora, acceder a la clase decorada.
+
+Ejemplo: <https://github.com/CarlosAMolina/design-patterns/blob/main/structural-patterns/decorator/dynamic_decorator.py>.
