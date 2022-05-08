@@ -1,3 +1,10 @@
+## Contenidos
+
+- [Motivación](#motivación)
+- [Ejemplo](#ejemplo)
+  - [Usernames](#usernames)
+  - [Text formatting](#text-formatting)
+
 ## Motivación
 
 Está enfocado a optimizar la memoria almacenada.
