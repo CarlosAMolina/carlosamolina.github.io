@@ -118,7 +118,7 @@ Para poder utilizar el protocolo SSH y no introducir nuestras credenciales, el r
 
 ```bash
 git clone git@$SERVIDOR:$USUARO/$REPOSITORIO
-# Ejm: git clone git@github.com:psf/requests
+# Ejm: git clone git@github.com:CarlosAMolina/carlosamolina.github.io
 ```
 
 ### Error authentication failed

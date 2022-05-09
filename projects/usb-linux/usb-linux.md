@@ -14,6 +14,7 @@
     - [Eject an USB manually](#eject-an-usb-manually)
     - [Power off an USB manually](#power-off-an-usb-manually)
 - [Automate work with an USB](#automate-work-with-an-usb)
+  - [Configuration](#configuration)
   - [Automate start and end working with an USB](#automate-start-and-end-working-with-an-usb)
   - [Automate notify the USB device](#automate-notify-the-usb-device)
 - [FAQ](#faq)
@@ -30,8 +31,8 @@ The aim of [this project](https://github.com/CarlosAMolina/usb-linux) is to auto
 
 I don't want to reinvent the wheel, there are lots of good [projects](https://wiki.archlinux.org/title/Udisks#Mount_helpers) with the same objective. This project was an opportunity to learn Gnu/Linux and Rust.
 
-![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/projects/usb-linux/notification-on.png)
-> Image. USB connection notification
+![](https://carlosamolina-public.s3.eu-west-1.amazonaws.com/projects/usb-linux/desktop-notification-on.png)
+> Image. Desktop USB connection notification
 
 ## Work with an USB manually
 
@@ -168,12 +169,13 @@ If the USB has a light, it will be turned off.
 
 The USB mount and unmount processes has been automated in the project [usb-linux](https://github.com/carlosamolina/usb-linux). Let's see how to configure it!
 
-### Automate start and end working with an USB
+### Configuration
 
 First, install and configure the required software:
 
-- [Rust](https://www.rust-lang.org/tools/install)
 - [Dunst](https://wiki.archlinux.org/title/Dunst#Installation)
+- [libnotify-bin](https://packages.debian.org/sid/libnotify-bin)
+- [Rust](https://www.rust-lang.org/tools/install)
 - [udisks2](https://wiki.archlinux.org/title/Udisks#Installation)
 
 To configure Dunst, for example in [i3](https://i3wm.org/), add the following line to the `~/.config/i3/config` file (you can check my [dotfiles](https://github.com/CarlosAMolina/dotfiles/blob/main/dotfiles/config/i3/config)):
@@ -182,9 +184,11 @@ To configure Dunst, for example in [i3](https://i3wm.org/), add the following li
 exec --no-startup-id dunst
 ```
 
-Download the project, for example in `~/Software/usb-linux/`, and build the Rust package:
+Download the [project](https://github.com/CarlosAMolina/usb-linux) and build the Rust package:
 
 ```bash
+cd ~/Software/
+git clone git@github.com:carlosamolina/usb-linux
 cd ~/Software/usb-linux/src/usb/
 cargo test # Check the tests pass.
 cargo build
@@ -195,6 +199,8 @@ Add a symlink to the binary to run it with the `usb` command:
 ```bash
 sudo ln -s $HOME/Software/usb-linux/src/usb/target/debug/usb /usr/local/bin/usb
 ```
+
+### Automate start and end working with an USB
 
 Now, the manual steps to start or end an USB can be done with these commands:
 
