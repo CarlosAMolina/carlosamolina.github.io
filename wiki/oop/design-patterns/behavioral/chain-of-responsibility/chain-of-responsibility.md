@@ -1,3 +1,12 @@
+## Contenidos
+
+- [Motivación](#motivación)
+- [Ejemplo](#ejemplo)
+  - [Method chain](#method-chain)
+  - [Broker chain](#broker-chain)
+    - [Command Query Separation](#command-query-separation)
+    - [Broker chain example](#broker-chain-example)
+
 ## Motivación
 
 Es utilizado cuando hay un grupo de componentes que pueden procesar un evento. Por ejemplo, al pulsar un botón, el encargado de gestionar el evento puede ser el mismo botón, o el elemento caja padre en el que se encuentre, o la ventana en la que se encuentre, etc.
