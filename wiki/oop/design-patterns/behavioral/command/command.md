@@ -1,3 +1,10 @@
+## Contenidos
+
+- [Motivación](#motivación)
+- [Ejemplo](#ejemplo)
+  - [Command](#command)
+  - [Composite Command](#composite-command)
+
 ## Motivación
 
 Tener un objeto que represente una operación de modo que tiene toda la información para realizarla. Es decir, encapsular los detalles de una operación en un objeto separado.
