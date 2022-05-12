@@ -14,5 +14,16 @@ Para implementarlo es necesario:
 
 ### Tree transversal
 
+Los iterators estáticos no pueden ser recursivos ya que, al llegar a cierto estado, se para la iteracción. No guardan el estado, por lo que no se puede continuar la iteracción más tarde a partir de cierto elemento.
+
 Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/iterator/tree_traversal.py>.
 
+### Array-backed property
+
+En Python se llama `List-Backed Property`.
+
+Consiste en que, si una clase tiene atributos y hacemos operaciones con ellos, es mejor definirlos de modo que, de añadir más atributos, no haya que modificar todos los lugares donde se hagan operaciones, sino que se trabaje con ellos automáticamente.
+
+En el siguiente ejemplo se consigue esto guardando los atributos en una lista y utilizando properties.
+
+Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/iterator/list_backed_property.py>.
