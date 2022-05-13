@@ -6,5 +6,9 @@ Esto ayuda por ejemplo en casos en que objetos dejan de estar activos (ejemplo, 
 
 ## Ejemplo
 
+### Chat room
+
+Clase `ChatRoom` es el mediator, clases `Person` no tienen relación unas con otras.
+
 Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/iterator/tree_traversal.py>.
 
