@@ -1,3 +1,10 @@
+## Contenidos
+
+- [Motivación](#motivación)
+- [Ejemplo](#ejemplo)
+  - [Tree transversal](#tree-transversal)
+  - [Array-backed property](#array-backed-property)
+
 ## Motivación
 
 Iterar es acceder a los elementos de un objeto (lista, diccionario, etc.). El iterator es una clase externa utilizada para realizar esta iteracción.
