@@ -10,5 +10,15 @@ Esto ayuda por ejemplo en casos en que objetos dejan de estar activos (ejemplo, 
 
 Clase `ChatRoom` es el mediator, clases `Person` no tienen relación unas con otras.
 
-Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/iterator/tree_traversal.py>.
+Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/mediator/mediator.py>.
+
+### Mediator con eventos
+
+Es un ejemplo de mediator con eventos.
+
+Creamos la clase `Game` que se le pasará a `Player` y `Coach`. Usaremos eventos para detectar que algo ocurre.
+
+Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/mediator/mediator_with_events.py>.
+
+
 
