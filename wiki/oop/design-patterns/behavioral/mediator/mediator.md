@@ -1,8 +1,21 @@
+## Contenidos
+
+- [Motivación](#motivación)
+- [Ejemplo](#ejemplo)
+  - [Chat room](#chat-room)
+  - [Mediator con eventos](#mediator-con-eventos)
+
 ## Motivación
 
 Facilitar comunicación entre componentes sin que estos tengan que preocuparse unos de otros o tener una referencia directa entre sí.
 
 Esto ayuda por ejemplo en casos en que objetos dejan de estar activos (ejemplo, un chat donde la gente se conecta y desconecta) ya que sería muy difícil mantener la relación.
+
+Para utilizarlo:
+
+- Creamos el mediator y cada objeto que lo necesite hará referencia a el, por ejemplo en un atributo.
+- El mediator tiene funciones que los componentes pueden llamar.
+- Los componentes tienen funciones que el mediator puede llamar.
 
 ## Ejemplo
 
