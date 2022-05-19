@@ -1,3 +1,10 @@
+## Contenidos
+
+- [Motivación](#motivación)
+- [Ejemplo](#ejemplo)
+  - [Volver a un estado que hemos guardado](#volver-a-un-estado-que-hemos-guardado)
+  - [Undo/redo](#undoredo)
+
 ## Motivación
 
 Para poder navegar a través de los cambios que se han hecho en un sistema, una alternativa es guardar todos los cambios y utilizar el patrón `Command` para deshacerlos y otra es guardar snapshots del sistema, esta última opción es el patrón `Memento`.
