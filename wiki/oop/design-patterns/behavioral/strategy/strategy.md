@@ -1,3 +1,9 @@
+## Contenidos
+
+- [Motivación](#motivación)
+- [Ejemplo](#ejemplo)
+  - [Procesador de texto](#procesador-de-texto)
+
 ## Motivación
 
 Permitir en run-time que cada componente use el objeto que más le convenga.
