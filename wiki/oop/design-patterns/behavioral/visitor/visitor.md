@@ -12,3 +12,11 @@ Esta manera de implementar el patrón no cumple con el principio Open Closed.
 
 Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/visitor/intrusive.py>.
 
+### Reflective
+
+En lugar de modificar las clases a las que añadir funcionalidad, creamos una clase para dicha funcionalidad.
+
+En el siguiente ejemplo continuamos con el caso de mostrar una suma. Tampoco cumple el principio Open Closed porque la clase que hace el print deberá modificarse en caso de que ampliemos el programa con una expresión resta.
+
+Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/visitor/reflective.py>.
+
