@@ -20,3 +20,16 @@ En el siguiente ejemplo continuamos con el caso de mostrar una suma. Tampoco cum
 
 Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/visitor/reflective.py>.
 
+### Classic
+
+Es la implementación explicada en el libro Gang of Four Design Patterns y utilizada en la mayoría de lenguajes de programación.
+
+Creamos una clase externa que realiza el print.
+
+Utiliza lo conocido como double dispatch, en el siguiente ejemplo, esto se ven al hacer `ae.left.accept` porque se acaba llamando a la clase `DoubleExpression` o a la `AdditionExpression` y en ellas llamamos a visitor pasándole `self`, es decir, pasándole la clase afectada.
+
+Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/visitor/classic.py>.
+
+### Classic refined
+
+Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/visitor/classic_refined.py>.
