@@ -1,3 +1,11 @@
+## Contenidos
+
+- [Motivación](#motivación)
+- [Ejemplo](#ejemplo)
+  - [Detectar el estado de un objeto](#detectar-el-estado-de-un-objeto)
+  - [Handmade state machine](#handmade-state-machine)
+  - [Switch based state machine](#switch-based-state-machine)
+
 ## Motivación
 
 Se trata de un patrón en el que el comportamiento de un objeto es determinado por su estado. El estado del objeto va cambiando.
