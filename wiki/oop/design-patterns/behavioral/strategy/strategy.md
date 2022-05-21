@@ -16,6 +16,8 @@ Para implementarlo:
 
 Puede que haya casos en que los diferentes strategies interactúen entre ellos.
 
+El patrón Strategy consigue su objetivo mediante composición. En cambio, el patrón de diseño Template Method tiene el mismo objetivo pero utiliza herencia.
+
 ## Ejemplo
 
 ### Procesador de texto 
