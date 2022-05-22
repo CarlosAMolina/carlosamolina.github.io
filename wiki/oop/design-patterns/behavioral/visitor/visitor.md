@@ -1,3 +1,12 @@
+## Contenidos
+
+- [Motivación](#motivación)
+- [Ejemplo](#ejemplo)
+  - [Intrusive](#intrusive)
+  - [Reflective](#reflective)
+  - [Classic](#classic)
+  - [Classic refined](#classic-refined)
+
 ## Motivación
 
 Permite añadir una nueva funcionalidad no solo a una clase sino a una jerarquía de clases completa.
