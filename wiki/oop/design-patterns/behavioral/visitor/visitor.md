@@ -26,10 +26,13 @@ Es la implementación explicada en el libro Gang of Four Design Patterns y utili
 
 Creamos una clase externa que realiza el print.
 
-Utiliza lo conocido como double dispatch, en el siguiente ejemplo, esto se ven al hacer `ae.left.accept` porque se acaba llamando a la clase `DoubleExpression` o a la `AdditionExpression` y en ellas llamamos a visitor pasándole `self`, es decir, pasándole la clase afectada.
+Utiliza lo conocido como double-dispatch, en el siguiente ejemplo, esto se ven al hacer `ae.left.accept` porque se acaba llamando a la clase `DoubleExpression` o a la `AdditionExpression` y en ellas llamamos a visitor pasándole `self`, es decir, pasándole la clase afectada.
 
 Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/visitor/classic.py>.
 
 ### Classic refined
 
+Modificamos el ejemplo de `classic.py` dejando de usar unos métodos que no son necesarios y añadiendo una clase que realiza la operación de sumar.
+
 Ejemplo <https://github.com/CarlosAMolina/design-patterns/blob/main/behavioral-patterns/visitor/classic_refined.py>.
+
