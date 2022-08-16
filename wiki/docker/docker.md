@@ -26,7 +26,7 @@ docker run -d -p 80:80 docker/getting-started
 - `-p 80:80` map port 80 of the host to port 80 in the container. Without the port mapping, we wouldn’t be able to access the application.
 - `docker/getting-started` the image to use
 
-The application is accesible at <http://localhost:80>.
+The application is accessible at <http://localhost:80>.
 
 [Link](https://docs.docker.com/get-started/).
 
