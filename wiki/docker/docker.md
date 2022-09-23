@@ -30,6 +30,7 @@ docker run --rm -d -p 80:80 docker/getting-started
 The application is accessible at <http://localhost:80>.
 
 [Link example](https://docs.docker.com/get-started/).
+
 [Link run command](https://docs.docker.com/engine/reference/commandline/run/).
 
 Use a volume mount.
