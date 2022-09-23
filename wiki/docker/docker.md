@@ -19,16 +19,18 @@ docker build -t getting-started .
 ### Run container.
 
 ```bash
-docker run -d -p 80:80 docker/getting-started
+docker run --rm -d -p 80:80 docker/getting-started
 ```
 
-- `-d` run the container in detached mode (in the background)
+- `--rm` automatically remove the container when it exits.
+- `-d` run the container in detached mode (in the background).
 - `-p 80:80` map port 80 of the host to port 80 in the container. Without the port mapping, we wouldn’t be able to access the application.
-- `docker/getting-started` the image to use
+- `docker/getting-started` the image to use.
 
 The application is accessible at <http://localhost:80>.
 
-[Link](https://docs.docker.com/get-started/).
+[Link example](https://docs.docker.com/get-started/).
+[Link run command](https://docs.docker.com/engine/reference/commandline/run/).
 
 Use a volume mount.
 
@@ -46,7 +48,7 @@ docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
 docker ps -a
 ```
 
-- `-a` show not running containers too
+- `-a` show not running containers too.
 
 ### Interact with a container
 
@@ -118,9 +120,9 @@ docker run -dp 3000:3000 \
      sh -c "yarn install && yarn run dev"
 ```
 
-- `-w /app` sets the “working directory” or the current directory that the command will run from
-- `-v "$(pwd):/app"` bind mount the current directory from the host in the container into the /app directory
-- `node:12-alpine` the image to use. Note that this is the base image for our app from the Dockerfile
+- `-w /app` sets the “working directory” or the current directory that the command will run from.
+- `-v "$(pwd):/app"` bind mount the current directory from the host in the container into the /app directory.
+- `node:12-alpine` the image to use. Note that this is the base image for our app from the Dockerfile.
 - `sh -c "yarn install && yarn run dev"` - the command. We’re starting a shell using sh (alpine doesn’t have bash) and running yarn install to install all dependencies and then running yarn run dev. If we look in the package.json, we’ll see that the dev script is starting nodemon.
 
 [Link](https://docs.docker.com/get-started/06_bind_mounts/).
