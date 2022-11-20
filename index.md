@@ -19,7 +19,6 @@ Proyectos
 
 Wiki
 
-- [ClamAV](wiki/clamav/clamav.md)
 - [Django](wiki/django/django.md)
 - [DirBuster](wiki/dirbuster/dirbuster.md)
 - [Docker](wiki/docker/docker.md)
