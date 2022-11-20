@@ -18,7 +18,6 @@ Proyectos
 
 Wiki
 
-- [Markdown](wiki/markdown/markdown.md)
 - [OOP](wiki/oop/oop.md)
 - [PentesterLab](wiki/pentesterlab/pentesterlab.md)
 - [Python](wiki/python/python.md)
