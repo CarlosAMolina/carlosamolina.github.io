@@ -13,7 +13,6 @@ Blog
 Proyectos
 
 - [Check Iframe](projects/check-iframe/introduction.md)
-- [Requests Custom](projects/requests-custom/introduction.md)
 - [USB Linux](projects/usb-linux/usb-linux.md)
 - [Work With URLs](projects/work-with-urls/introduction.md)
 
