@@ -18,7 +18,6 @@ Proyectos
 
 Wiki
 
-- [GNU/Linux](wiki/gnu-linux/gnu-linux.md)
 - [iptables](wiki/iptables/iptables.md)
 - [LaTeX](wiki/latex/latex.md)
 - [Markdown](wiki/markdown/markdown.md)
