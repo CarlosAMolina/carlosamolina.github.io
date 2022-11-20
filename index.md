@@ -18,7 +18,6 @@ Proyectos
 
 Wiki
 
-- [iptables](wiki/iptables/iptables.md)
 - [LaTeX](wiki/latex/latex.md)
 - [Markdown](wiki/markdown/markdown.md)
 - [OOP](wiki/oop/oop.md)
