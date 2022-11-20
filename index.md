@@ -19,7 +19,6 @@ Proyectos
 
 Wiki
 
-- [Docker](wiki/docker/docker.md)
 - [Facebook](wiki/facebook/facebook.md)
 - [Firefox](wiki/firefox/firefox.md)
 - [Gimp](wiki/gimp/gimp.md)
