@@ -18,7 +18,6 @@ Proyectos
 
 Wiki
 
-- [Facebook](wiki/facebook/facebook.md)
 - [Firefox](wiki/firefox/firefox.md)
 - [Gimp](wiki/gimp/gimp.md)
 - [Git](wiki/git/git.md)
