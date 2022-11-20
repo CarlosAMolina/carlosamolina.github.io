@@ -19,7 +19,6 @@ Proyectos
 
 Wiki
 
-- [Apache](wiki/apache/apache.md)
 - [ClamAV](wiki/clamav/clamav.md)
 - [Django](wiki/django/django.md)
 - [DirBuster](wiki/dirbuster/dirbuster.md)
