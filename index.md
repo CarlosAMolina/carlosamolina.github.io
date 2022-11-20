@@ -23,5 +23,4 @@ Wiki
 - [PentesterLab](wiki/pentesterlab/pentesterlab.md)
 - [Python](wiki/python/python.md)
 - [Snort](wiki/snort/snort.md)
-- [Sublime Text](wiki/sublime-text/sublime-text.md)
 
