@@ -18,7 +18,6 @@ Proyectos
 
 Wiki
 
-- [Firefox](wiki/firefox/firefox.md)
 - [Gimp](wiki/gimp/gimp.md)
 - [Git](wiki/git/git.md)
 - [GNU/Linux](wiki/gnu-linux/gnu-linux.md)
