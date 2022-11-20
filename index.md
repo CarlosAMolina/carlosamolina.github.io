@@ -19,7 +19,6 @@ Proyectos
 
 Wiki
 
-- [Django](wiki/django/django.md)
 - [Docker](wiki/docker/docker.md)
 - [Facebook](wiki/facebook/facebook.md)
 - [Firefox](wiki/firefox/firefox.md)
