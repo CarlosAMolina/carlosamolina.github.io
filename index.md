@@ -18,6 +18,5 @@ Proyectos
 
 Wiki
 
-- [OOP](wiki/oop/oop.md)
 - [Python](wiki/python/python.md)
 
