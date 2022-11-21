@@ -16,7 +16,3 @@ Proyectos
 - [USB Linux](projects/usb-linux/usb-linux.md)
 - [Work With URLs](projects/work-with-urls/introduction.md)
 
-Wiki
-
-- [Python](wiki/python/python.md)
-
